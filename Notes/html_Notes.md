@@ -1,5 +1,10 @@
 HTML : hyper text markup language
 
+
+HTML  --->  markup lANGUAGE ??
+
+In HTML everything is created by using Tags hence html is known as Markup language.
+
 As we all know HTML is a language of the web. It’s used to design the web pages or we can say structure the page layouts of a website. HTML stands for HYPERTEXT MARKUP LANGUAGE, as its full form suggests it’s not any programming language, a markup language. So, while the execution of HTML code we can’t face any such error. In real HTML code wasn’t compiled or interpreted because HTML code was rendered by the browser. which is similar to the compilation of a program. Html content is parched through the browser to display the content of HTML.
 
 HTML DOCUMENT
