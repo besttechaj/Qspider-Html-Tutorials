@@ -1,0 +1,57 @@
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.qua {
+  background-color: black;
+  color: green;
+}
+
+/* styling the class using 2nd class name */
+.ov {
+  background-color: red;
+}
+
+.not {
+  background-color: black;
+  color: red;
+}
+
+#ind {
+  background-color: black;
+
+  color: Blue;
+}
+
+#au {
+  background-color: black;
+
+  color: yellow;
+}
+
+#pk {
+  background-color: black;
+
+  color: green;
+}
+
+#sa {
+  background-color: black;
+
+  color: purple;
+}
+
+#af {
+  background-color: black;
+
+  color: brown;
+}
+
+#nz {
+  background-color: black;
+
+  color: chartreuse;
+}

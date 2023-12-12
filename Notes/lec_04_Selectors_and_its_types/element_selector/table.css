@@ -1,0 +1,17 @@
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+/* Below is the example of element selector */
+
+td {
+  background-color: black;
+  color: red;
+}
+
+th {
+  color: blue;
+}

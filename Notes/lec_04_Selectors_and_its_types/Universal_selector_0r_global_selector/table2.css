@@ -1,0 +1,12 @@
+table,
+th,
+td {
+  border: 2px solid yellow;
+  border-collapse: collapse;
+}
+
+/* universal selector example */
+* {
+  color: red;
+  background-color: black;
+}
