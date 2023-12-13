@@ -1,0 +1,59 @@
+/* ul{
+    list-style-type : square
+}
+
+
+body{
+    background-color: orange
+}
+
+ol{
+    background-color: yellow;
+    ;
+}
+
+dl{
+    background-color: purple ;
+    color:white;
+}
+
+#cr7{
+    background-color : red
+}
+
+ */
+
+/* for multi- color */
+/* body{
+     background-image : linear-gradient(red, blue, yellow, green);
+     height:100vh;
+ } */
+
+/* 
+ol{
+    background-image: linear-gradient(blue, yellow)
+}
+
+ul{
+    background-image: linear-gradient(green, orange)
+}
+
+dl{
+    background-image: linear-gradient(grey, red)
+}
+ */
+
+body {
+  background-image: url(./vv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+ol,
+ul {
+  background-image: url(./ww.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
