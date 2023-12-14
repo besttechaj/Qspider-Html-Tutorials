@@ -1,0 +1,41 @@
+#ms {
+  color: blue;
+  font-size: 70px;
+  /*  text-align :center ; */
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  word-spacing: 50px;
+  text-shadow: 38px 14px 8px red;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+#vv {
+  color: green;
+  font-size: 50px;
+  /*  text-align :center ; */
+  font-weight: 300;
+  text-transform: capitalize;
+  letter-spacing: 30px;
+  word-spacing: 50px;
+  text-shadow: 20px 12px 7px red;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+#rr {
+  color: red;
+  font-size: 30px;
+  /*  text-align :center ; */
+  font-weight: 200;
+  text-transform: lower;
+  letter-spacing: 30px;
+  word-spacing: 50px;
+  text-shadow: 10px 10px 6px red;
+  display: block;
+  text-align: right;
+  text-decoration: none;
+}

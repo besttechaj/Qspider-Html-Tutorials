@@ -1,0 +1,70 @@
+IMPORTANT POINTS
+
+THERE ARE TWO TYPES OF LEVEL ELEMENT TAGS :
+A) BLOCK LEVEL ELEMENT : h1-h6, p, table, pre :: occupy the whole width/ line
+B) INLINE LEVEL ELEMENT : img, audio, video, iframe, a, span, symmetric tags :: occupy only the content width space not the whole width/line
+
+The text-align property is used to set the horizontal alignment of a text.
+
+align-text property only works with the block level element because to due block level element the tag gets the whole line width and it is easy to apply align-text property to such tag to place the content right, left, center, justify.
+
+align-text property don't works with the inline level element because to inline level element the tag gets the content width space not the whole width/line. Hence it is not possible to apply align-text property to such tag to place the content right, left, center, justify. Due to which we have to comment the align-text property while using inline level element
+ANY SOLUTION??
+IF YOU WANT TO USE THE ALIGN-TEXT PROPERTY WITH THE INLINE LEVEL ELEMENT THEN convert the inline level element to block level element by using display property as given below
+
+<!-- a{
+            display:block;
+            align-text: center;
+      } -->
+
+To convert the block level element to inline level element go with display property
+eg
+
+<!-- h1{
+          display:inline;
+}
+
+          now it is a the inline level element because to inline level element the tag gets the content width space not the whole width/line. Hence it is not possible to apply align-text property to such tag to place the content right, left, center, justify. Due to which we have to comment the align-text property while using inline level element
+     -->
+
+<!--
+
+#mi {
+  /* to change the text color  */
+  color: purple;
+  /* to change the font size  */
+  font-size: 24px;
+
+  /*  text-align :center ; */
+  /* to change the font weight (in multiples of 100)  */
+  font-weight: 100;
+  /* to change the text to upper case use text-transform: uppercase;
+  to change the text to lower case use text-transform: lowercase;
+  to change first letter to capitalize use text-transform: capitalize; */
+  text-transform: capitalize;
+  /* to get space between letters  */
+  letter-spacing: 30px;
+  /* to get space between words  */
+  word-spacing: 50px;
+  /* text-shadow: px px px color
+  1st position refers position of horizontal shadow  [ -ve value to move left and +ve value to move right]px
+  2nd position refers position of vertical shadow [-ve value to move top and +ve value to move bottom]px
+  3rd position refers blur-radius of the color (by default it is 0px )
+  4th position refers to colors
+  */
+  text-shadow: 30px 20px 2px red;
+}
+
+/* to do some effect while hovering on text use hover property */
+#mi::hover {
+  color: yellow;
+  font-size: 100px;
+  /* to delay some affect we use transition property */
+  transition: 5s;
+}
+
+ -->
+
+ <!-- to display the content about use title while hovering on the content  -->
+
+    <h2 id="mi" title="MI">mumbai indians</h2>
