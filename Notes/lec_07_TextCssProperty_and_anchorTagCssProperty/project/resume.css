@@ -1,0 +1,44 @@
+#rr {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 10px;
+}
+
+#rr:hover {
+  font-size: 50px;
+  letter-spacing: 20px;
+  transition: 3s;
+}
+
+img {
+  display: block;
+  text-align: left;
+}
+
+table {
+  border: 2px solid black;
+  /* applying collapse property to parent element hence child element will also collapse  */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr,
+td,
+th {
+  border: 2px solid black;
+}
+
+img {
+  width: 100px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(248, 240, 240);
+}
