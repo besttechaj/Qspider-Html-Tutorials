@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./navbar.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h1>mi</h1>
+    <h1>csk</h1>
+    
+    <a href="">rcb</a>
+    <a href="">GT</a>
+    
+    <p>kkr</p>
+    <p>rr</p> -->
+
+    <!-- applying flex property     
+    here the nav is the parent  -->
+    <nav>
+      <!-- here anchor tags are the children -->
+      <a href="">Home</a>
+      <a href="">Layout</a>
+      <a href="">Login</a>
+    </nav>
+
+    <!-- Header is the parent element  -->
+    <header>
+      <!-- div are the childrens -->
+      <!-- all the anchor tags are the grand children. Hence you cannot change anything inside grand children while using flex. To make the changes in the grand children you need to create the previous upper element as their parent element-->
+      <div id="left">
+        <a href="#">Home</a>
+
+        <a href="">Layout</a>
+      </div>
+      <div id="cent">
+        <a href="">tshirts</a>
+        <a href="">Mobile</a>
+        <a href="">Jeans</a>
+      </div>
+      <div id="right">
+        <a href="">Login</a>
+        <a href="">SignUp</a>
+      </div>
+    </header>
+
+    <!-- here div is the parent element  -->
+    <div id="nav">
+      <!-- here div is the children -->
+      <div class="abc">
+        <!-- h2 is the grand children. Hence you cannot change anything inside grand children while using flex. To make the changes in the grand children you need to create the previous upper element as their parent element  -->
+        <h2>Home</h2>
+        <h2>Layout</h2>
+      </div>
+      <div class="abc">
+        <h2>Help</h2>
+        <h2>Login</h2>
+      </div>
+    </div>
+  </body>
+</html>

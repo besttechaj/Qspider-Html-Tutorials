@@ -14,7 +14,16 @@
 
 img {
   display: block;
-  text-align: left;
+  width: 100px;
+}
+
+#signature {
+  border: 3px solid red;
+  margin-left: auto;
+}
+
+.about {
+  text-align: end;
 }
 
 table {
@@ -33,10 +42,6 @@ th {
   letter-spacing: 1px;
   word-spacing: 1px;
   font-weight: 300;
-}
-
-img {
-  width: 100px;
 }
 
 a {

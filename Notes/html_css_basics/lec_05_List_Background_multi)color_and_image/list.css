@@ -45,7 +45,9 @@ dl{
 
 body {
   background-image: url(./vv.jpg);
+  /* multiple images will be displayed  */
   background-repeat: no-repeat;
+  /* to cover the page size  */
   background-size: cover;
   color: white;
 }

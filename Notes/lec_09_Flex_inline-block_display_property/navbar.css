@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+/* 
+Display Property Types 
+display : block || inline || inline-block || flex || grid
+Different types of level elements are :
+1- block level element 
+2- inline level element 
+3- inline-block level element ( by merging the block level element and inline level element. Hence you are acquiring and overcoming all the advantages and disadvantages of both types level elements).
+Inline-block elements are used for small changes inside the small amount of elements.
+
+4- flex : 
+Bigger applications use flex for big changes.
+If you want to control all the children elements via parent element. flex is a better choice.
+5- Grid 
+
+block level elements : Covers the whole width of line
+
+inline level elements : Covers the content space only
+
+Advantage of converting block level element to inline level element ie changing the display property from block to inline of any block level element.
+Eg. h1 is by default block level element
+converting it to inline level element.
+- Now you use multiple h1 tag on a same line
+disadvantage:
+- After that you cannot be able to change the width after conversion
+
+
+Advantage of converting inline level element to block level element ie changing the display property from inline to block  of any inline level element.
+Eg. anchor tag-a is by default inline level element
+converting it to block level element.
+- Now you use multiple anchor-a tag on every different individual lines.
+- You can change the width of the newly converted block element.
+disadvantage:
+- It will not allow other any other content in the same line.
+
+
+h1{
+   display :inline;
+   background-color :red;
+   
+   width:300px; 
+}
+
+a{
+   display :block;
+   background-color :blue;
+    width:300px 
+   color:white;
+}
+
+
+p{
+   background-color :pink;
+   width:300px;
+   display : inline-block;
+}
+
+
+/* 
+To create gap between content you can use flex->horizontally property-->justify-content property for bigger gaps but always use gap property for smaller gaps  */
+
+/* For vertical alignment use flex -->  vertically property--> align-item property */
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+}
+*/
+
+/* for nav */
+
+nav {
+  display: flex;
+  /* for horizontally */
+  /* 
+To create gap between content you can use flex->horizontally property-->justify-content property for bigger gaps but always use gap property for smaller gaps  */
+  /* For vertical alignment use flex -->  vertically property--> align-item property */
+
+  justify-content: space-between;
+  background-color: pink;
+  padding: 20px 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+/* for header */
+
+header {
+  display: flex;
+  /* 
+To create gap between content you can use flex->horizontally property-->justify-content property for large gaps but always use gap property for smaller gaps  */
+  /* For vertical alignment use flex -->  vertically property--> align-item property */
+
+  justify-content: space-between;
+  background-color: orange;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+/* 
+To create gap between content you can use flex->horizontally property-->justify-content property for bigger gaps but always use gap property for smaller gaps  */
+/* For vertical alignment use flex -->  vertically property--> align-item property */
+
+#left {
+  display: flex;
+  gap: 20px;
+}
+
+#cent {
+  display: flex;
+  gap: 20px;
+}
+
+#right {
+  display: flex;
+  gap: 20px;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* grand children */
+.abc {
+  display: flex;
+  gap: 20px;
+}

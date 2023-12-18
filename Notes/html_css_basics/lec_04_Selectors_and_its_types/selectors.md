@@ -1,6 +1,6 @@
 CSS Selector
 
-CSS selectors are used to select the content you want to style. CSS selectors select HTML elements according to its id, class, type, attribute etc.
+CSS selectors are used to select the content you want to style. CSS selectors select HTML elements according to its id, class, elementName, elementGroup, universal or global etc.
 
 There are several different types of selectors in CSS.
 
