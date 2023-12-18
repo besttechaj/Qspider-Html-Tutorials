@@ -65,23 +65,21 @@ p{
 To create gap between content you can use flex->horizontally property-->justify-content property for bigger gaps but always use gap property for smaller gaps  */
 
 /* For vertical alignment use flex -->  vertically property--> align-item property */
-body {
+/* body {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 500px;
-}
-*/
+} */
 
 /* for nav */
 
+/* for horizontally */
+/* 
+To create gap between content you can use flex->horizontally property-->justify-content property for bigger gaps but always use gap property for smaller gaps  */
+/* For vertical alignment use flex -->  vertically property--> align-item property */
 nav {
   display: flex;
-  /* for horizontally */
-  /* 
-To create gap between content you can use flex->horizontally property-->justify-content property for bigger gaps but always use gap property for smaller gaps  */
-  /* For vertical alignment use flex -->  vertically property--> align-item property */
-
   justify-content: space-between;
   background-color: pink;
   padding: 20px 30px;
