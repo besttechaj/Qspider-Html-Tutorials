@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .box-1 {
+        height: 300px;
+        width: 300px;
+        background: black;
+        /* for positioning --> relative measure its axis from its original location.
+        Disadvantage: after relocation it also occupy the previous location space if used with property like margin-left/right/top/bottom. Will not overlap eg.
+        position: relative;
+        margin-left: 300px;
+        */
+        /* for overlapping used property like left/ bottom/ top/ right with position property */
+        position: relative;
+        /* below property will work only if positions like absolute/ relative/ sticky/ fixed is used  */
+        left: 50px;
+        top: 100px;
+      }
+      .box-2 {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        /* for positioning --> absolute measure its axis from the body 
+        Advantage: After relocation it cannot occupy the previous space.
+        easily overlap using margin property like margin left/ bottom/ top/ right 
+        easily overlap using  property  left/ bottom/ top/ right  when using position property
+        */
+        position: absolute;
+        /* below property will work only if positions like absolute/ relative/ sticky/ fixed is used  */
+        top: 0px;
+        left: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+      illum dicta vero perspiciatis facilis cum, sequi molestiae. Possimus
+      blanditiis accusamus voluptates reiciendis adipisci? Magni doloremque
+      dolor officia facilis rerum! Tenetur!lorem200 Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Repellendus, eos est sit aut nemo saepe a,
+      odit excepturi qui enim rerum recusandae optio nihil hic repudiandae
+      temporibus. Amet voluptate saepe quas veniam, ipsam iure reprehenderit!
+      Optio veniam doloribus, nihil iure aliquam aperiam quae quidem possimus
+      dolorem voluptatibus, laudantium quos architecto! Aperiam nam, dolore
+      adipisci vel sed iste placeat, at, ratione vero perferendis voluptas
+      maxime blanditiis praesentium ullam totam! Asperiores, esse velit, ipsum
+      assumenda culpa placeat, aut laudantium voluptatibus voluptas optio quis
+      consectetur dolores molestias eos eius ratione odit ex deserunt! Sequi
+      tempora in non, iure repellendus eligendi cupiditate minus quae deleniti,
+      blanditiis deserunt debitis animi itaque impedit dolorum labore aut nulla.
+      Minus repellendus natus, nesciunt libero ducimus placeat doloribus,
+      voluptatem, rerum dolores quibusdam temporibus voluptate repellat commodi
+      laborum cupiditate odio ab deserunt quis maiores blanditiis ex voluptates
+      ipsa perferendis. Eligendi commodi fuga ipsa, obcaecati quaerat expedita.
+      Quasi repudiandae laudantium quis totam velit debitis voluptates nostrum,
+      voluptatem incidunt? Ex magni repellendus eveniet, odit mollitia vero
+      ipsam dolor. Quo sequi dolores, eum quam vero asperiores, rerum earum sed
+      repellat ducimus explicabo? Eveniet inventore vitae libero illum
+      consequatur incidunt quibusdam? Officiis eveniet facere, soluta iusto
+      earum, odit, voluptatem deleniti error explicabo quae necessitatibus.
+    </p>
+  </body>
+</html>
