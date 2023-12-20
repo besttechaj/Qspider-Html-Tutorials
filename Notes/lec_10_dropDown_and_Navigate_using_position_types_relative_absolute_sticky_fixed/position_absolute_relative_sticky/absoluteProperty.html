@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position: Absolute Property</title>
+    <style>
+      .container {
+        border: 2px solid black;
+      }
+      img {
+        margin: 10px;
+      }
+      .container {
+        position: relative;
+      }
+      /* As the parent is not positioned, the child element will try to adjust itself relative to nearest positioned ancestor. Here nearest positioned(The positioned element means an element having a position property other than static) ancestor is <HTML> so element gets adjust according to <HTML>. */
+      /* position: Absolute elements do not follow the normal flow document instead they position themselves relative to the closest positioned ancestor. Its final position is determined using the top, bottom, left and right.
+
+Note: The positioned element means an element having a position property other than static.
+
+These element does not occupy any space and other elements treats absolute elements like there is no element. Parent element should be positioned and position property other than absolute and If parent element is not positioned then absolute element position themselves according to nearest positioned ancestor. We generally set z-index when using absolute position.
+
+Consider Two cases to understand absolute position:
+
+1st case: When the parent property value is positioned means the position property of the parent is not equal to static.
+Here we can see child element has adjusted itself according to parent and no extra space is assign to it.
+
+2nd Case: When the parent element is not positioned.
+Explanation: As the parent is not positioned, the child element will try to adjust itself relative to nearest positioned ancestor. Here nearest positioned ancestor is <HTML> so element gets adjust according to <HTML>.
+
+  BOTH THE CASES ARE EXPLAINED BELOW
+*/
+
+      /* case1: Providing parent element and children element position property to relative and absolute respectively */
+      .image2 {
+        position: absolute;
+        top: 200px;
+        border: 2px solid green;
+      }
+
+      /* case2: Providing position absolute to element with no parent element */
+      .image4 {
+        position: absolute;
+        top: 200px;
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./image1.jpg" height="250px" width="300px" class="image1" />
+      <img src="./image2.jpg" height="250px" width="300px" class="image2" />
+      <img src="./image3.jpg" height="250px" width="300px" class="image3" />
+    </div>
+    <img src="./image4.jpg" height="250px" width="300px" class="image4" />
+  </body>
+</html>
