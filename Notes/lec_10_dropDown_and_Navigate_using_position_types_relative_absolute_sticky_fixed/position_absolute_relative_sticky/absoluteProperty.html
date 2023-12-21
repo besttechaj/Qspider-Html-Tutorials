@@ -5,21 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Position: Absolute Property</title>
     <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
       .container {
-        border: 2px solid black;
+        border: 3px solid black;
+        background-color: red;
       }
       img {
         margin: 10px;
+        width: 250px;
       }
       .container {
         position: relative;
       }
-      /* As the parent is not positioned, the child element will try to adjust itself relative to nearest positioned ancestor. Here nearest positioned(The positioned element means an element having a position property other than static) ancestor is <HTML> so element gets adjust according to <HTML>. */
+      /* As the parent is not positioned, the child element will try to adjust itself relative to nearest positioned ancestor (ie it will check for position: relative/absolute/sticky/fixed in its ancestors element...and go till up to last <html> tag, here <html> tag is by default relative).
+      IN THIS EXAMPLE, Here nearest positioned(The positioned element means an element having a position property other than static) ancestor is <HTML> so element gets adjust according to <HTML> tag. */
       /* position: Absolute elements do not follow the normal flow document instead they position themselves relative to the closest positioned ancestor. Its final position is determined using the top, bottom, left and right.
 
 Note: The positioned element means an element having a position property other than static.
 
-These element does not occupy any space and other elements treats absolute elements like there is no element. Parent element should be positioned and position property other than absolute and If parent element is not positioned then absolute element position themselves according to nearest positioned ancestor. We generally set z-index when using absolute position.
+These element does not occupy any space and other elements treats absolute elements like there is no element. Parent element should be positioned(ie it must be position: relative/absolute/sticky/fixed) and position property other than absolute and If parent element is not positioned then absolute element position themselves according to nearest positioned ancestor. We generally set z-index when using absolute position.
 
 Consider Two cases to understand absolute position:
 
@@ -49,10 +56,10 @@ Explanation: As the parent is not positioned, the child element will try to adju
   </head>
   <body>
     <div class="container">
-      <img src="./image1.jpg" height="250px" width="300px" class="image1" />
-      <img src="./image2.jpg" height="250px" width="300px" class="image2" />
-      <img src="./image3.jpg" height="250px" width="300px" class="image3" />
+      <img src="./image1.jpg" height="250px" class="image1" />
+      <img src="./image2.jpg" height="250px" class="image2" />
+      <img src="./image3.jpg" height="250px" class="image3" />
     </div>
-    <img src="./image4.jpg" height="250px" width="300px" class="image4" />
+    <img src="./image4.jpg" height="250px" class="image4" />
   </body>
 </html>
