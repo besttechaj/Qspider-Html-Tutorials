@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: chocolate;
+  /* always give width in % for dynamic changes whenever we compress the webpage */
+  width: 20%;
+  /* always give height in vh (viewport-HEIGHT: VISIBLE AREA ) for dynamic changes whenever we compress the webpage */
+  height: 100vh;
+}
+
+#cont {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  font-size: 50px;
+}
+
+a:hover {
+  background-color: pink;
+  color: black;
+}
+/* below li dropdown   ....... for vertical drop down
+#menu{
+  list-style-type :none;
+  padding :0px;
+  margin:0px;
+  background-color :cyan;
+  position :relative;
+  display :none;
+}
+*/
+
+/* right side drop down */
+#menu {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: cyan;
+  position: absolute;
+  top: 0%;
+  /* 100 percentage of the parent width */
+  left: 100%;
+  /* to hide the element */
+  display: none;
+}
+
+#drop {
+  position: relative;
+}
+#drop:hover #menu {
+  display: block;
+}
+
+#iphone-menu {
+  background-color: black;
+  color: red;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  display: none;
+}
+
+#iphone-drop {
+  position: relative;
+}
+
+#iphone-drop:hover #iphone-menu {
+  display: block;
+}

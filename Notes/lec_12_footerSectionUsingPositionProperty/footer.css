@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* for footer at bottom */
+  display: flex;
+  /* for Vertically location in flex use align-items property  */
+  align-items: end;
+  height: 100vh;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 30px 10px;
+}
+
+#left {
+  width: 60%;
+  display: flex;
+}
+
+#right {
+  width: 50%;
+  display: flex;
+  border-left: 2px solid grey;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 1px;
+}
+
+li {
+  color: white;
+}
+
+h5 {
+  color: grey;
+  margin-top: 0px;
+}
+
+#menu {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  display: none;
+}
+
+#drop {
+  position: relative;
+}
+
+#drop:hover #menu {
+  display: block;
+}
