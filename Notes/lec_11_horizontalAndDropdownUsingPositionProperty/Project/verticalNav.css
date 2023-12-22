@@ -5,7 +5,7 @@ body {
 
 nav {
   background-color: black;
-  width: 15%;
+  width: 25%;
   height: 100vh;
 }
 
@@ -26,4 +26,40 @@ a {
 a:hover {
   background-color: pink;
   color: black;
+}
+
+.innerList1,
+.innerList2,
+.innerList3,
+.innerList4 {
+  position: relative;
+}
+
+.dropList1,
+.dropList2,
+.dropList3,
+.dropList4 {
+  background-color: rgb(0, 195, 255);
+  list-style-type: none;
+  padding: 0px;
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  display: none;
+}
+
+.innerList1:hover .dropList1 {
+  display: block;
+}
+
+.innerList2:hover .dropList2 {
+  display: block;
+}
+
+.innerList3:hover .dropList3 {
+  display: block;
+}
+
+.innerList4:hover .dropList4 {
+  display: block;
 }
