@@ -5,7 +5,7 @@ body {
 
 nav {
   background-color: black;
-  width: 25%;
+  width: 10%;
   height: 100vh;
 }
 
@@ -61,5 +61,67 @@ a:hover {
 }
 
 .innerList4:hover .dropList4 {
+  display: block;
+}
+
+.outer_List2 {
+  padding: 0px;
+  list-style-type: none;
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  background-color: blue;
+  display: none;
+}
+
+.innerMenu1,
+.innerMenu2,
+.innerMenu3,
+.innerMenu4,
+.innerMenu5,
+.innerMenu6,
+.innerMenu7,
+.innerMenu8,
+.innerMenu9,
+.innerMenu10,
+.innerMenu11,
+.innerMenu12 {
+  position: relative;
+}
+
+.innerMenu1:hover .outer_List2 {
+  display: block;
+}
+.innerMenu2:hover .outer_List2 {
+  display: block;
+}
+.innerMenu3:hover .outer_List2 {
+  display: block;
+}
+.innerMenu4:hover .outer_List2 {
+  display: block;
+}
+.innerMenu5:hover .outer_List2 {
+  display: block;
+}
+.innerMenu6:hover .outer_List2 {
+  display: block;
+}
+.innerMenu7:hover .outer_List2 {
+  display: block;
+}
+.innerMenu8:hover .outer_List2 {
+  display: block;
+}
+.innerMenu9:hover .outer_List2 {
+  display: block;
+}
+.innerMenu10:hover .outer_List2 {
+  display: block;
+}
+.innerMenu11:hover .outer_List2 {
+  display: block;
+}
+.innerMenu12:hover .outer_List2 {
   display: block;
 }
