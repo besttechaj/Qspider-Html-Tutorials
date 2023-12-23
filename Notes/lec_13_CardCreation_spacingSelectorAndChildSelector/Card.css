@@ -1,0 +1,79 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#cont {
+  background-color: pink;
+  /* occupy 80% of parent width .... block element */
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+/* 
+spacing selectors : to change all the divs present inside parent cont .... applicable for grand children also..... to exclude grand children use child selector ie > operator inside spacing selectors */
+
+/* below one selector  is the example of spacing selectors..... also known as descended selectors */
+#cont div {
+  width: 30%;
+  /* to control image overflow out of the box */
+  overflow: hidden;
+}
+
+/* below selectors are the example of spacing using child selector due to > operator known as child selector. */
+#cont > div > img {
+  width: 100%;
+  height: 380px;
+  transition: 2s;
+}
+
+#cont > div > h3 {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+#cont > div > h4 {
+  /* padding-left: 10px; */
+  font-weight: 100;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-align: center;
+}
+
+#cont > div > button {
+  width: 100%;
+  height: 50px;
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  letter-spacing: 7px;
+  font-weight: 500;
+}
+
+#cont > div > img:hover {
+  /* for zooming affect go for scale */
+  /* 1.2 is 120% */
+  transform: scale(1.2);
+}
+
+#cont > div > .pr {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  /* padding: 0px 5px; */
+}
