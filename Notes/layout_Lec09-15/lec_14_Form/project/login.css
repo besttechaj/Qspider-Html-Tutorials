@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.outer-1 {
+  background-color: green;
+  width: 50%;
+}
+
+.outer-2 {
+  background-color: blue;
+  width: 50%;
+}

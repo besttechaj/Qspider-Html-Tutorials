@@ -7,12 +7,14 @@ body {
 main {
   display: flex;
   justify-content: center;
+  background-color: red;
 }
 
 /* form is by default block level element  */
 main > form {
   /* display:flex ;
   flex-direction :column ; */
+  background-color: green;
   width: 20%;
   border: 2px solid rgb(201, 198, 198);
   border-radius: 5px;

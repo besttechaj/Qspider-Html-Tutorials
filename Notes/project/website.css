@@ -1,0 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Mono', monospace;
+  background-image: url(./images/netflixBackgroundImage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
