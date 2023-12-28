@@ -1,8 +1,120 @@
 body {
+  font-family: 'Source Sans 3', sans-serif;
   margin: 0px;
   padding: 0px;
-  font-family: 'Source Sans 3', sans-serif;
   background-image: url(./images/banner.jpg);
   background-repeat: no-repeat;
+  /* to increase background image size */
   background-size: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /*  1rem --> 16px */
+  padding: 0rem 1rem;
+}
+
+nav > #left > h1 {
+  color: white;
+  font-size: 1rem;
+}
+
+nav > #left > h1 > span {
+  font-weight: 100;
+}
+
+nav > #right > #right-cont {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+}
+
+#right-cont > li > a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  /* due to inline level it is not accepting padding top and padding botton hence convert it to block level  */
+  display: block;
+  font-size: 1.2rem;
+}
+
+#right-cont > li > a > button {
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid rgb(223, 211, 211);
+  padding: 5px 15px;
+}
+
+#drop {
+  position: relative;
+}
+
+#menu {
+  list-style-type: none;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  right: 0%;
+  top: 100%;
+  width: 200%;
+  display: none;
+}
+
+#menu > li > a {
+  text-decoration: none;
+  color: grey;
+  padding: 1rem;
+  /* due to inline element padding vertically is not accepting  hence convert it to block level element  */
+  display: block;
+  border-bottom: 1px solid rgb(222, 220, 220);
+}
+
+#drop:hover #menu {
+  display: block;
+}
+
+#menu > li > a:hover {
+  background-color: orange;
+  color: white;
+}
+
+#menu2 {
+  background-color: white;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0%;
+  right: 100%;
+  width: 100%;
+  display: none;
+}
+
+#menu2 > li > a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: grey;
+  padding: 1rem;
+  /* due to inline element padding vertically is not accepting  hence convert it to block level element  */
+
+  display: block;
+  border-bottom: 1px solid rgb(222, 220, 220);
+}
+
+#menu2 > li > a:hover {
+  background-color: orange;
+  color: white;
+}
+
+#drop2 {
+  position: relative;
+}
+
+#drop2:hover #menu2 {
+  display: block;
 }
