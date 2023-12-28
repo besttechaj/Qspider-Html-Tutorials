@@ -1,0 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Source Sans 3', sans-serif;
+  background-image: url(./images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
