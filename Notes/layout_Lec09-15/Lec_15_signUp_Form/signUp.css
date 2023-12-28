@@ -1,0 +1,53 @@
+* {
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+#fname-cont {
+  position: relative;
+}
+
+.fa-user {
+  position: absolute;
+  top: 20%;
+  left: 22%;
+}
+
+#fname {
+  height: 20px;
+  padding-left: 25px;
+}
+
+body {
+  background-color: green;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: orange;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+main > form > #fname-cont > label {
+  font-size: 15px;
+}
+
+main > form > #fname-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+main > form > label {
+  font-size: 15px;
+  color: black;
+}
+
+main > form > .gender {
+  font-size: 15px;
+  display: flex;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./signUp.css" />
+    <meta charset="UTF-8" />
+    <title>SignUp</title>
+    <script
+      src="https://kit.fontawesome.com/c0e50d9876.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <div id="fname-cont">
+          <i class="fa-regular fa-user"></i>
+          <label for="fname">First Name</label>
+          <input id="fname" />
+        </div>
+
+        <br />
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" />
+        <br />
+        <label for="email">E-mail</label>
+        <input type="email" id="email" />
+        <br />
+        <label for="mobile">Mobile No.</label>
+        <input type="number" id="mobile" />
+        <br />
+        <label for="dob">D.O.B</label>
+        <input type="date" id="dob" />
+        <br />
+        <div class="gender">
+          <label for="">Gender: </label>
+          <input type="radio" name="gen" />
+          <label for="">Male</label>
+          <input type="radio" name="gen" />
+          <label for="">Female</label>
+        </div>
+
+        <br />
+        <!-- dropdown -->
+        <label for="">Language known: </label>
+        <select name="" id="">
+          <option value="" hidden>--Select--</option>
+          <option value="">Single</option>
+          <option value="">Married</option>
+        </select>
+        <br />
+        <select name="" id="">
+          <option value="" hidden>--Select--</option>
+          <option value="">English</option>
+          <option value="">Hindi</option>
+          <option value="">Marathi</option>
+        </select>
+        <br />
+        <label for="">Upload photo</label>
+        <input type="file" />
+        <br />
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+        <br />
+        <label for="cpassword">Confirm Password</label>
+        <input type="password" id="cpassword" />
+        <br />
+        <input type="checkbox" />
+        <label for="">I am 18+</label>
+        <br />
+        <input type="checkbox" />
+        <label for="">I am Accepting all Terms & conditions</label>
+        <br />
+        <input type="range" />
+        <br />
+        <input type="color" />
+        <br />
+        <input type="search" />
+        <br />
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <br />
+        <!-- <input type="submit">
+         <br> -->
+        <button type="submit">signUp</button>
+        <!-- <input type="reset"> -->
+        <button type="reset">Cancel</button>
+        <br />
+      </form>
+    </main>
+  </body>
+</html>

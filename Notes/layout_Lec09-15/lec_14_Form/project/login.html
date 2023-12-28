@@ -9,26 +9,44 @@
   <body>
     <div class="container">
       <div class="outer-1">
-        <div id="inner-1">
-          <h4>Welcome Back</h4>
-          <img src="" alt="" />
-          <h2>sign In to your account</h2>
-          <p>Let's get you signed in and straight to the icons</p>
+        <h4>Welcome Back</h4>
+        <div id="img-cont">
+          <img src="./smiley.jpg" alt="" />
         </div>
+        <h2>sign In to your account</h2>
+        <p>Let's get you signed in and straight to the icons</p>
       </div>
+
       <div class="outer-2">
         <form action="">
-          <label for="">Email Address</label>
-          <input type="text" />
-          <label for="">Password</label>
-          <input type="password" />
-          <div>
-            <label for="">Remember me</label>
-            <a href="">Forget Your Password</a>
+          <div id="em">
+            <i class="fa-regular fa-envelope"></i>
+            <label for="email">Email Address </label>
+
+            <input type="email" id="email" placeholder="abc@gmail.com" />
           </div>
-          <button>Sign In</button>
+
+          <div id="pw">
+            <i class="fa-solid fa-unlock"></i>
+            <label for="password" id="pw">Password </label>
+            <input type="password" id="password" />
+          </div>
+
+          <div id="inner">
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox">Remember me</label>
+            <a href="#">Forget Your Password?</a>
+          </div>
+          <button type="submit">
+            Sign In
+            <i class="fa-solid fa-right-from-bracket"></i>
+          </button>
         </form>
       </div>
     </div>
+    <script
+      src="https://kit.fontawesome.com/c0e50d9876.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
