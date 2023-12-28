@@ -5,4 +5,69 @@ body {
   background-image: url(./images/netflixBackgroundImage.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  width: 100%;
+}
+
+nav {
+  padding: 8px 150px;
+  display: flex;
+  align-items: center;
+  /* background-color: yellow; */
+  /* width: 100%; */
+}
+
+#left {
+  /* background-color: purple; */
+}
+
+nav > #left > img {
+  width: 30%;
+  background-color: transparent;
+}
+
+#right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  /* background-color: red; */
+}
+
+#right > button {
+  padding: 7px;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  width: 25%;
+  font-weight: 700;
+}
+
+#select_div > select {
+  width: 120px;
+  padding: 10px 10px;
+  padding-left: 20px;
+  text-align: centre;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#select_div > select > option {
+  background-color: blue;
+  color: white;
+}
+
+#select_div {
+  position: relative;
+}
+
+.fa-globe {
+  position: absolute;
+  top: 30%;
+  left: 4%;
 }
