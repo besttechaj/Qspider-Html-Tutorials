@@ -37,11 +37,16 @@ nav > #left > img {
 #right > button {
   padding: 7px;
   font-size: 1rem;
-  background-color: red;
+  background-color: #e50914;
   color: white;
   border-radius: 5px;
   width: 25%;
   font-weight: 700;
+  cursor: pointer;
+}
+
+#right > button:hover {
+  background-color: #c11119;
 }
 
 #select_div > select {
@@ -70,4 +75,79 @@ nav > #left > img {
   position: absolute;
   top: 30%;
   left: 4%;
+}
+
+#intro {
+  /* background-color: orange; */
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 7rem;
+}
+
+#intro > h1 {
+  /* background-color: red; */
+  width: 90%;
+  margin: auto;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: -3.5px;
+}
+
+#intro > p {
+  font-size: 400;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  letter-spacing: -2px;
+  margin-bottom: 0;
+}
+
+#intro > h3 {
+  /* background-color: green; */
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: -1px;
+  margin-top: 1rem;
+}
+
+#intro > #inner1 {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro > #inner1 > input {
+  /* padding: 1.5rem 1rem 0.5rem; */
+  padding: 1rem;
+  width: 30%;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  /* filter: opacity(0%); */
+  margin-right: 8px;
+  border: 2px solid grey;
+}
+
+#intro > #inner1 > button {
+  width: 20%;
+  border-radius: 5px;
+  /* padding: 1.5rem 1rem 0.5rem; */
+  text-align: center;
+  padding: 0.9rem;
+  font-size: 1.5rem;
+  background-color: #e50914;
+  color: white;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+#intro > #inner1 > button:hover {
+  background-color: #c11119;
 }
