@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
+  background-color: black;
 }
 
 nav {
@@ -83,7 +84,7 @@ nav > #left > img {
   text-align: center;
   color: white;
   width: 100%;
-  margin-top: 8rem;
+  margin: 8rem 0rem 12rem 0rem;
 }
 
 #intro > h1 {
@@ -123,7 +124,7 @@ nav > #left > img {
 }
 
 #intro > #inner1 > input::placeholder {
-  color: grey;
+  color: white;
   font-weight: 500;
 }
 
@@ -133,7 +134,8 @@ nav > #left > img {
   width: 30%;
   font-size: 1rem;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: #000000;
+  opacity: 40%;
   color: white;
   /* filter: opacity(0%); */
   margin-right: 8px;
@@ -156,4 +158,73 @@ nav > #left > img {
 
 #intro > #inner1 > button:hover {
   background-color: #c11119;
+}
+
+/* body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+} */
+
+#tv_div {
+  background-color: black;
+}
+
+#tv {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  padding: 3rem 0rem;
+  /* border: 2px solid red; */
+}
+
+#enjoy {
+  /* background-color :yellow; */
+  width: 48%;
+  color: white;
+}
+
+#enjoy > h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  letter-spacing: -2px;
+}
+
+#enjoy > p {
+  font-size: 1.6rem;
+  letter-spacing: -2px;
+}
+
+#tv-video {
+  /* background-color :orange; */
+  width: 48%;
+  position: relative;
+}
+
+#tv-video > img {
+  position: relative;
+  width: 100%;
+  /* border:2px solid grey; */
+  z-index: 2;
+}
+
+#tv-video > video {
+  position: absolute;
+  height: 330px;
+  width: 400px;
+  top: 3%;
+  left: 12%;
+  z-index: 1;
+  /* border:2px solid red; */
+}
+
+hr {
+  height: 10px;
+  background-color: #232323;
+  border: none;
+  margin-top: 4rem;
+  margin-bottom: 0%;
 }
