@@ -176,13 +176,10 @@ nav > #left > img {
   margin: auto;
   justify-content: space-between;
   align-items: center;
-  /* background-color: red; */
   padding: 3rem 0rem;
-  /* border: 2px solid red; */
 }
 
 #enjoy {
-  /* background-color :yellow; */
   width: 48%;
   color: white;
 }
@@ -199,7 +196,6 @@ nav > #left > img {
 }
 
 #tv-video {
-  /* background-color :orange; */
   width: 48%;
   position: relative;
 }
@@ -207,7 +203,6 @@ nav > #left > img {
 #tv-video > img {
   position: relative;
   width: 100%;
-  /* border:2px solid grey; */
   z-index: 2;
 }
 
@@ -218,7 +213,6 @@ nav > #left > img {
   top: 3%;
   left: 12%;
   z-index: 1;
-  /* border:2px solid red; */
 }
 
 hr {
