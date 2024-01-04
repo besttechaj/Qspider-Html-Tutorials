@@ -12,43 +12,48 @@ hr {
 #mob_inner {
   border: 3px solid red;
   width: 80%;
-  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3rem;
+  /* margin: auto; */
   display: flex;
 }
 
 #left_div {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
   position: relative;
   width: 60%;
 }
 
 /* mobile image  */
 #left_div > #left_inner1 > img {
-  width: 95%;
+  width: 80%;
 }
 
 /* absolute div for overlapping */
 #left_div > #left_inner2 {
   display: flex;
-  border: 2px solid yellow;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: black;
   width: 20rem;
   height: 6.5rem;
   position: absolute;
   z-index: 2;
   bottom: 0%;
+  left: 15%;
+  padding: 10px;
 }
 
 #left_div > #left_inner2 > #pic > img {
-  border: 3px solid red;
+  border: 2px solid red;
   width: 60%;
-  margin-left: 1rem;
 }
 
 #left_div > #left_inner2 > #strange {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   text-align: left;
-  margin-right: 3rem;
-  /* margin-top: 0%; */
+  /* margin-right: 2rem; */
 }
 
 #left_div > #left_inner2 > #strange > h5 {
@@ -64,11 +69,12 @@ hr {
   font-size: 14px;
   margin-top: 0%;
   color: rgb(0, 60, 255);
+  margin-bottom: 0%;
 }
 
 #left_div > #left_inner2 > #gif {
   border: 1px solid red;
-  width: 65%;
+  width: 30%;
 }
 
 #right_div {
