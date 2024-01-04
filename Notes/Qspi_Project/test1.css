@@ -22,7 +22,7 @@ hr {
 #left_div {
   /* border: 3px solid yellow; */
   position: relative;
-  width: 60%;
+  width: 70%;
 }
 
 /* mobile image  */
@@ -36,12 +36,12 @@ hr {
   border: 2px solid grey;
   border-radius: 15px;
   background-color: black;
-  width: 16rem;
+  width: 15.5rem;
   height: 4rem;
   position: absolute;
   z-index: 2;
   bottom: 8%;
-  left: 18%;
+  left: 17%;
   padding: 10px;
 }
 
@@ -74,6 +74,7 @@ hr {
 }
 
 #left_div > #left_inner2 > #gif > img {
+  width: 3.5rem;
   height: 4rem;
 }
 /* 
