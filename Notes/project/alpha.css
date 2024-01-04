@@ -272,3 +272,260 @@ footer > #text > #text-p {
 #text-p2 {
   margin-left: 10px;
 }
+
+/* for mobile */
+
+@media (max-width: 600px) {
+  body {
+    /* to increase background image size */
+    background-size: 160%;
+    /*  for horizontally centre */
+    background-position-x: center;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #mob-btn {
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+  }
+
+  #alpha {
+    width: 80%;
+    margin: auto;
+    margin-top: 0rem;
+  }
+
+  #alpha > h1 {
+    font-size: 2rem;
+  }
+
+  #alpha > p {
+    font-size: 1.1rem;
+  }
+
+  #alpha > button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  #intro {
+    width: 100%;
+    margin-top: 0rem;
+    border-radius: 0px;
+    /* padding-top:2rem; */
+  }
+
+  #intro > h2 {
+    font-size: 1.5rem;
+  }
+
+  #intro > p {
+    /* covers the 60% of the parent width from the left side  */
+    width: 90%;
+  }
+
+  /* for mobile version break tag is not needed else it will take unwanted space */
+  br {
+    display: none;
+  }
+
+  #icons {
+    width: 100%;
+  }
+
+  #icons > #icons1 {
+    flex-direction: column;
+  }
+
+  #icons > #icons2 {
+    flex-direction: column;
+  }
+
+  #icons > #icons1 {
+    text-align: center;
+  }
+
+  #icons > #icons2 {
+    text-align: center;
+  }
+
+  #icons > #icons1 > #icons-a,
+  #icons-c {
+    border-right: none;
+  }
+
+  #icons > #icons1 > #icons-b {
+    border-top: 1px solid grey;
+  }
+
+  #icons > #icons2 > #icons-c {
+    border-top: 1px solid grey;
+  }
+
+  #icons > #icons2 > #icons-d {
+    border-top: 1px solid grey;
+  }
+
+  /* to be done from here.... */
+
+  #card {
+    border: 2px solid green;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #card1,
+  #card2 {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+  }
+
+  #card1 > img {
+    width: 100%;
+  }
+
+  #card1 > #card1-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #card2 > img {
+    width: 100%;
+  }
+
+  #card2 > #card2-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+/************************************************************************/
+
+#icons {
+  display: flex;
+  flex-direction: column;
+  /* border:2px solid red;  */
+  color: grey;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#icons > #icons1 {
+  /* border:2px solid red; */
+  display: flex;
+}
+
+#icons > #icons1 > #icons-a,
+#icons-b {
+  /* border:2px solid blue; */
+  padding: 10px;
+}
+
+#icons > #icons1 > #icons-a,
+#icons-b > h1 {
+  text-align: center;
+}
+
+#icons > #icons1 > #icons-a,
+#icons-b > p {
+  letter-spacing: -1px;
+}
+
+#icons > #icons2 {
+  display: flex;
+}
+
+#icons > #icons2 > #icons-c,
+#icons-d {
+  /* border:2px solid blue; */
+  padding: 10px;
+}
+
+#icons > #icons2 > #icons-c,
+#icons-d > h1 {
+  text-align: center;
+}
+
+#icons > #icons2 > #icons-c,
+#icons-d > p {
+  letter-spacing: -1px;
+}
+
+#icons > #icons1 > #icons-a,
+#icons-c {
+  border-right: 2px solid grey;
+}
+
+#icons > #icons2 > #icons-c {
+  border-top: 2px solid grey;
+}
+
+#icons > #icons2 > #icons-d {
+  border-top: 2px solid grey;
+}
+
+#card {
+  border: 2px solid green;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#card1,
+#card2 {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+#card1 > img {
+  width: 100%;
+}
+
+#card1 > #card1-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#card2 > img {
+  width: 100%;
+}
+
+#card2 > #card2-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* #mob-btn {
+  display: none;
+} */
