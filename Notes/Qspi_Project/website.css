@@ -160,12 +160,6 @@ nav > #left > img {
   background-color: #c11119;
 }
 
-/* body {
-  margin: 0px;
-  padding: 0px;
-  background-color: black;
-} */
-
 #tv_div {
   background-color: black;
 }
@@ -223,12 +217,6 @@ hr {
   margin-bottom: 0%;
 }
 
-#mob_outer {
-  margin-top: 5rem;
-  width: 100%;
-  border: 2px solid red;
-}
-
 #mob_inner {
   width: 80%;
   margin: auto;
@@ -270,14 +258,7 @@ hr {
   z-index: 2;
   height: 30%;
   width: 100%;
-  background-color: black;
-  /* padding: 8px 10px; */
 }
-
-/* #left_inner1 > #img1 {
-  border: 3px solid yellow;
-  height: 50vh;
-} */
 
 #left_inner2 > #img1 > img {
   border: 2px solid red;
