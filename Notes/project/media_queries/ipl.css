@@ -1,0 +1,57 @@
+/* globally ie default value*/
+#lap {
+  display: block;
+}
+
+#mob {
+  display: block;
+}
+
+#tab {
+  display: block;
+}
+
+/* for mobile */
+@media (max-width: 600px) {
+  #lap {
+    display: none;
+  }
+
+  #mob {
+    display: block;
+  }
+
+  #tab {
+    display: none;
+  }
+}
+
+/* for tablet */
+@media (min-width: 601px) and (max-width: 1000px) {
+  #lap {
+    display: none;
+  }
+
+  #mob {
+    display: none;
+  }
+
+  #tab {
+    display: block;
+  }
+}
+
+/* for desktop */
+@media (min-width: 1001px) {
+  #lap {
+    display: block;
+  }
+
+  #mob {
+    display: none;
+  }
+
+  #tab {
+    display: none;
+  }
+}
