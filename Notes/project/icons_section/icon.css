@@ -1,0 +1,94 @@
+body {
+  border: 2px solid blue;
+}
+
+#icon {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+/* HERE WE ARE TRYING TO USE DISPLAY: INLINE-BLOCK PROPERTY INSTEAD OF DISPLAY:FLEX TO STYLE THE WHOLE SECTION */
+#icon > div {
+  /* border: 2px solid red; */
+  width: 45%;
+  /* inline will not except any other width EXCEPT THE CONTENT WIDTH ONLY */
+
+  display: inline-block;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+/* FOR NORMAL FONTAWESOME ICON (ie not the pro version) PROVIDING CUSTOM PROPERTY TO EACH ICON  */
+
+.fa-bolt-lightning {
+  background-color: #e89980;
+  color: white;
+  border-radius: 100%;
+  font-size: 2.5rem;
+  padding: 1.5rem 2rem;
+}
+
+.fa-chart-area {
+  background-color: #7fcdb8;
+  color: white;
+  border-radius: 100%;
+  font-size: 2.5rem;
+  padding: 1.5rem 2rem;
+}
+
+.fa-cloud {
+  background-color: #90b0ba;
+  color: white;
+  border-radius: 100%;
+  font-size: 2.5rem;
+  padding: 1.5rem 2rem;
+}
+
+.fa-lock {
+  background-color: #e5cb95;
+  color: white;
+  border-radius: 100%;
+  font-size: 2.5rem;
+  padding: 1.5rem 2rem;
+}
+
+#div1 {
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  /* to overlap other element without affecting its location use position relative property  */
+  position: relative;
+  top: 2px;
+  left: 4.5px;
+}
+
+#div4 {
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+}
+
+#card {
+  color: white;
+  margin-top: 2rem;
+  /* border: 2px solid yellow; */
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+
+#card > div {
+  width: 48%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#card > div > img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radiu: 5px;
+}
