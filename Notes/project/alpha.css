@@ -294,6 +294,7 @@ nav > #right > #right-cont {
   cursor: pointer;
   background-color: #ffffff;
   margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 #card2 > #card2-a > button {
@@ -306,6 +307,7 @@ nav > #right > #right-cont {
   cursor: pointer;
   background-color: #ffffff;
   margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 #card1-a > h1 {
@@ -512,8 +514,7 @@ footer > #text > #text-p {
     text-align: center;
   }
 
-  #icons > #icons1 > #icons-a,
-  #icons-c {
+  #icons > #icons1 > #icons-a {
     border-right: none;
   }
 
@@ -523,53 +524,162 @@ footer > #text > #text-p {
 
   #icons > #icons2 > #icons-c {
     border-top: 1px solid grey;
+    border-right: none;
   }
 
   #icons > #icons2 > #icons-d {
     border-top: 1px solid grey;
   }
 
-  /* to be done from here.... */
-
   #card {
-    border: 2px solid green;
     width: 100%;
-    display: flex;
     flex-direction: column;
   }
 
-  #card1,
+  #card1 {
+    width: 100%;
+  }
+
   #card2 {
-    border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
-  }
-
-  #card1 > img {
     width: 100%;
   }
 
-  #card1 > #card1-a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+  #card1 > #card1-a > h1 {
+    font-size: 22px;
+  }
+
+  #card1 > #card1-a > p {
+    font-size: 15px;
+  }
+
+  #card2 > #card2-a > h1 {
+    font-size: 22px;
+  }
+
+  #card2 > #card2-a > p {
+    font-size: 15px;
   }
 
   #card2 > img {
     width: 100%;
   }
 
-  #card2 > #card2-a {
+  #card1 > #card1-a > button {
+    width: 100%;
+    padding: 0px 30px;
+    height: 3rem;
+    border-radius: 5px;
+    color: #777777;
+    border: 2px solid rgb(217, 216, 216);
+    margin-right: 1rem;
+    cursor: pointer;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+
+  #card2 > #card2-a > button {
+    width: 100%;
+    padding: 0px 30px;
+    font-size: 1rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 2px solid rgb(217, 216, 216);
+    color: #777777;
+    margin-right: 1rem;
+    cursor: pointer;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+  }
+
+  /* to be done from here.......................................................... */
+
+  #signup {
+    background-color: #e89990;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 4rem 0rem;
+  }
+
+  #signup > h1 {
+    margin: 0px;
+    font-size: 2rem;
+    color: #f9e6df;
+  }
+
+  #signup > p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #f9e6df;
+    letter-spacing: -0.2px;
+  }
+
+  #signup > input {
+    padding: 1rem;
+    width: 20%;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-right: 8px;
+    border: none;
+    font-weight: 100;
+  }
+
+  #signup > input::placeholder {
+    color: white;
+  }
+
+  #signup > button {
+    width: 10%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.9rem;
+    font-size: 1rem;
+    background-color: #fffff;
+    color: #e89990;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+  }
+
+  footer {
+    width: 100%;
+    padding: 4rem 0rem;
+    color: #999999;
+  }
+
+  footer > #logo {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  footer > #text {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer > #text > p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+
+  footer > #text > #text-p {
+    border-left: 1px solid #d7d5d5;
+    border-right: 1px solid #d7d5d5;
+    padding: 0px 10px;
+  }
+
+  #text-p1 {
+    margin-right: 10px;
+  }
+
+  #text-p2 {
+    margin-left: 10px;
   }
 }
 
