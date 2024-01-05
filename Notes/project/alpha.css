@@ -159,7 +159,7 @@ nav > #right > #right-cont {
   /* for block level ......  change the width to any width and to align content to centre use margin auto ... automatically gives margin to all the sides */
   width: 70%;
   margin: auto;
-  margin-top: 14rem;
+  margin-top: 9rem;
   border-radius: 5px;
   padding-top: 2rem;
 }
@@ -238,18 +238,18 @@ nav > #right > #right-cont {
 }
 
 #icons > #icons1 > #icons-a {
-  border-right: 2px solid grey;
+  border-right: 2px solid rgb(217, 216, 216);
 }
 #icons > #icons2 > #icons-c {
-  border-right: 2px solid grey;
+  border-right: 2px solid rgb(217, 216, 216);
 }
 
 #icons > #icons2 > #icons-c {
-  border-top: 2px solid grey;
+  border-top: 2px solid rgb(217, 216, 216);
 }
 
 #icons > #icons2 > #icons-d {
-  border-top: 2px solid grey;
+  border-top: 2px solid rgb(217, 216, 216);
 }
 
 #card {
@@ -310,17 +310,21 @@ nav > #right > #right-cont {
 
 #card1-a > h1 {
   font-size: 2rem;
+  color: #646464;
 }
 
 #card2-a > h1 {
   font-size: 2rem;
+  color: #646464;
 }
 #card1-a > p {
   font-size: 16px;
+  color: #777;
 }
 
 #card2-a > p {
   font-size: 16px;
+  color: #777;
 }
 
 #card2 > img {
