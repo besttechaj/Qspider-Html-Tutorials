@@ -1,0 +1,74 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* by default z-index :0 
+z-index will not work for position: static only
+*/
+
+#mi {
+  background-color: blue;
+  position: absolute;
+  z-index: 1;
+}
+
+#csk {
+  background-color: yellow;
+  position: absolute;
+  z-index: 2;
+}
+
+#rcb {
+  background-color: red;
+  position: absolute;
+  z-index: 3;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: yellow;
+}
+
+#first {
+  background-color: red;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+#second {
+  background-color: orange;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+#third {
+  background-color: green;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  z-index: 2px;
+}
+
+#fourth {
+  background-color: blue;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
