@@ -1,0 +1,76 @@
+/* GLOBAL AND DEFAULT PROPERTY */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: chocolate;
+}
+
+#lap {
+  color: white;
+}
+
+#mob {
+  color: cadetblue;
+  display: none;
+}
+
+/* for mobile 0px to 600px */
+
+@media (max-width: 600px) {
+  body {
+    background-color: hotpink;
+  }
+
+  #lap {
+    display: none;
+  }
+
+  #mob {
+    display: block;
+  }
+
+  #tab {
+    display: none;
+  }
+}
+
+/* for tablet 601px to 1000px */
+
+@media (min-width: 601px) and (max-width: 1000px) {
+  body {
+    background-color: green;
+  }
+
+  #lap {
+    display: none;
+  }
+
+  #mob {
+    display: none;
+  }
+
+  #tab {
+    display: block;
+  }
+}
+
+/* for laptop min width 1001px  */
+
+media (min-width:1001px) {
+  body {
+    background-color: cyan;
+  }
+
+  #lap {
+    display: block;
+  }
+
+  #mob {
+    display: none;
+  }
+
+  #tab {
+    display: none;
+  }
+}
