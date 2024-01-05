@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   /* to increase background image size */
   background-size: 100%;
-  background-color: #f2eded;
+  background-color: #f5f5f5;
 }
 
 nav {
@@ -213,6 +213,19 @@ nav > #right > #right-cont {
   /* border: 2px solid red; */
 }
 
+.allIcons > div > .fa-circle-bolt {
+  color: #e89980;
+}
+.allIcons > div > .fa-chart-area {
+  color: #7fcdb8;
+}
+.allIcons > div > .fa-cloud {
+  color: #90b0ba;
+}
+.allIcons > div > .fa-lock {
+  color: #e5cb95;
+}
+
 .allIcons > h1 {
   color: #646464;
 }
@@ -269,6 +282,30 @@ nav > #right > #right-cont {
   align-items: center;
   padding: 10px;
   background-color: #fff;
+}
+
+#card1 > #card1-a > button {
+  width: 30%;
+  height: 3rem;
+  border-radius: 5px;
+  color: #777777;
+  border: 2px solid rgb(217, 216, 216);
+  margin-right: 1rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+#card2 > #card2-a > button {
+  width: 30%;
+  height: 3rem;
+  border-radius: 5px;
+  border: 2px solid rgb(217, 216, 216);
+  color: #777777;
+  margin-right: 1rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-bottom: 2rem;
 }
 
 #card1-a > h1 {
@@ -360,7 +397,7 @@ footer > #logo {
   justify-content: center;
   gap: 1.5rem;
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 footer > #text {
