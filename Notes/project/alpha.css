@@ -7,6 +7,12 @@ body {
   /* to increase background image size */
   background-size: 100%;
   background-color: #f5f5f5;
+  filter: brightness(1);
+}
+
+/* by default the mob-btn will not display unless mobile version is not used  */
+#mob-btn {
+  display: none;
 }
 
 nav {
@@ -698,7 +704,3 @@ footer > #text > #text-p {
     margin-left: 10px;
   }
 }
-
-/* #mob-btn {
-  display: none;
-} */
