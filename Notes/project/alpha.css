@@ -208,22 +208,38 @@ nav > #right > #right-cont {
   /* letter-spacing: -1px; */
 }
 
-.allIcons > div > .fa-solid {
-  font-size: 6rem;
-  /* border: 2px solid red; */
+/* FOR NORMAL FONTAWESOME ICON (ie not the pro version) PROVIDING CUSTOM PROPERTY TO EACH ICON  */
+
+.allIcons > div > .fa-bolt-lightning {
+  background-color: #e89980;
+  color: white;
+  border-radius: 100%;
+  font-size: 2.5rem;
+  padding: 1.8rem 1.9rem;
 }
 
-.allIcons > div > .fa-circle-bolt {
-  color: #e89980;
-}
 .allIcons > div > .fa-chart-area {
-  color: #7fcdb8;
+  background-color: #7fcdb8;
+  color: white;
+  border-radius: 100%;
+  font-size: 2.5rem;
+  padding: 1.8rem 2rem;
 }
+
 .allIcons > div > .fa-cloud {
-  color: #90b0ba;
+  background-color: #90b0ba;
+  color: white;
+  border-radius: 100%;
+  font-size: 2.5rem;
+  padding: 1.8rem 2rem;
 }
+
 .allIcons > div > .fa-lock {
-  color: #e5cb95;
+  background-color: #e5cb95;
+  color: white;
+  border-radius: 100%;
+  font-size: 2.5rem;
+  padding: 1.8rem 2rem;
 }
 
 .allIcons > h1 {
