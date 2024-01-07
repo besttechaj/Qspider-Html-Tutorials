@@ -15,6 +15,7 @@ body {
   display: none;
 }
 
+/* for nav section  */
 nav {
   display: flex;
   justify-content: space-between;
@@ -127,6 +128,7 @@ nav > #right > #right-cont {
   display: block;
 }
 
+/* for alpha section  */
 #alpha {
   text-align: center;
   color: white;
@@ -160,8 +162,10 @@ nav > #right > #right-cont {
   color: white;
 }
 
+/* for intro section  */
 #intro {
-  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
   background-color: white;
   text-align: center;
   /* for block level ......  change the width to any width and to align content to centre use margin auto ... automatically gives margin to all the sides */
@@ -170,8 +174,6 @@ nav > #right > #right-cont {
   margin-top: 9rem;
   border-radius: 5px;
   padding-top: 2rem;
-  display: flex;
-  flex-direction: column;
 }
 
 #intro > h2 {
@@ -197,6 +199,7 @@ nav > #right > #right-cont {
   border-bottom-left-radius: 5px;
 }
 
+/* for icon section  */
 #icons {
   display: flex;
   flex-direction: column;
@@ -284,6 +287,7 @@ nav > #right > #right-cont {
   border-top: 2px solid rgb(217, 216, 216);
 }
 
+/* for card section  */
 #card {
   width: 70%;
   margin: auto;
@@ -331,6 +335,7 @@ nav > #right > #right-cont {
   color: #777;
 }
 
+/* for signup section  */
 #signup {
   background-color: #e89990;
   width: 100%;
@@ -383,6 +388,7 @@ nav > #right > #right-cont {
   cursor: pointer;
 }
 
+/* for footer section  */
 footer {
   width: 100%;
   padding: 4rem 0rem;
@@ -448,6 +454,7 @@ footer > #text > p > a {
     background-color: red;
   }
 
+  /* for nav section  */
   nav {
     display: none;
   }
@@ -462,6 +469,7 @@ footer > #text > p > a {
     border-radius: 5px;
   }
 
+  /* for alpha section  */
   #alpha {
     /* border: 2px solid blue; */
     width: 80%;
@@ -478,6 +486,7 @@ footer > #text > p > a {
 
   #alpha > p {
     font-size: 1.2rem;
+    font-weight: 400;
     margin-bottom: 1rem;
     word-spacing: -0.5px;
     letter-spacing: -0.5px;
@@ -488,6 +497,7 @@ footer > #text > p > a {
     margin-right: 0%;
     margin-bottom: 0.7rem;
     padding: 0rem 1.5rem;
+    height: 2.7rem;
   }
 
   #alpha > #learn {
@@ -495,25 +505,34 @@ footer > #text > p > a {
   }
 
   /* for intro section */
-
   #intro {
+    /* border: 2px solid yellow; */
     width: 100%;
     margin-top: 0rem;
     border-radius: 0px;
-    /* padding-top:2rem; */
   }
 
   #intro > h2 {
+    text-align: center;
+    width: 100%;
     font-size: 1.5rem;
+    color: #646464;
+    padding: 0rem 0.5rem;
   }
 
   #intro > p {
     /* covers the 60% of the parent width from the left side  */
-    width: 90%;
+    width: 100%;
+    color: #777777;
+    padding: 1.8rem 1rem 0rem 1rem;
+    letter-spacing: -0.5px;
   }
 
   #intro > img {
+    /* padding-left: -2rem; */
     width: 100%;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 
   /* for mobile version break tag is not needed else it will take unwanted space */
@@ -523,22 +542,21 @@ footer > #text > p > a {
 
   #icons {
     width: 100%;
+    margin: 1rem 0rem 1rem 0rem;
+    border: 2px solid blue;
+    border-radius: 0px;
+    padding: 3rem 1rem 3rem 1rem;
   }
-
   #icons > #icons1 {
+    /* border: 2px solid yellow; */
     flex-direction: column;
+    align-items: center;
   }
 
   #icons > #icons2 {
+    /* border: 2px solid yellow; */
     flex-direction: column;
-  }
-
-  #icons > #icons1 {
-    text-align: center;
-  }
-
-  #icons > #icons2 {
-    text-align: center;
+    align-items: center;
   }
 
   #icons > #icons1 > #icons-a {
@@ -556,6 +574,110 @@ footer > #text > p > a {
 
   #icons > #icons2 > #icons-d {
     border-top: 1px solid grey;
+  }
+
+  /*edit from here ...............................................*/
+
+  .allIcons {
+    padding-top: 2rem;
+  }
+
+  .allIcons > h1 {
+    color: #646464;
+  }
+
+  .allIcons > p {
+    color: #6c6c6c;
+    font-size: 1rem;
+    letter-spacing: -0.5px;
+  }
+
+  /* for card section  */
+  #card {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .common_outer_card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 48%;
+    background-color: #ffffff;
+  }
+
+  .common_outer_card > img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .common_outer_card > .common_inner_card > button {
+    width: 30%;
+    margin: auto;
+    height: 2rem;
+    border-radius: 5px;
+    color: #777777;
+    border: 2px solid rgb(217, 216, 216);
+    cursor: pointer;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+    font-size: 0.7rem;
+  }
+
+  .common_inner_card > h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: ##646464;
+  }
+
+  .common_inner_card > p {
+    margin-top: 0;
+    font-size: 16px;
+    color: #777;
+  }
+
+  /* for signup section  */
+  #signup {
+    background-color: #e89990;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 4rem 0rem;
+  }
+
+  #signup > h1 {
+    margin: 0px;
+    font-size: 2rem;
+    color: #f9e6df;
+  }
+
+  #signup > p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #f9e6df;
+    word-spacing: 1px;
+  }
+
+  #signup > input {
+    padding: 1rem;
+    width: 20%;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-right: 8px;
+    border: none;
+    font-weight: 100;
+  }
+
+  #signup > input::placeholder {
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.8rem;
   }
 
   /* for card section  */
@@ -602,7 +724,6 @@ footer > #text > p > a {
     border-radius: 5px;
     color: #777777;
     border: 2px solid rgb(217, 216, 216);
-    /* margin-right: 1rem; */
     cursor: pointer;
     background-color: #ffffff;
     margin-bottom: 2rem;
@@ -659,7 +780,9 @@ footer > #text > p > a {
   }
 
   /* to be done from here.......................................................... */
+  /* for footer section  */
   footer {
+    width: 100%;
     padding: 4rem 0rem;
     color: #999999;
   }
@@ -669,7 +792,7 @@ footer > #text > p > a {
     justify-content: center;
     gap: 1.5rem;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   footer > #text {
@@ -678,14 +801,23 @@ footer > #text > p > a {
   }
 
   footer > #text > p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 1rem;
+    color: #6c6c6c;
   }
 
   footer > #text > #text-p {
-    border-left: 1px solid #d7d5d5;
-    border-right: 1px solid #d7d5d5;
+    border-left: 1px solid rgba(208, 208, 208, 0.951);
+    border-right: 1px solid rgb(208, 208, 208, 0.951);
     padding: 0px 10px;
+  }
+
+  footer > #text > p > a {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #6c6c6cc8;
+    text-decoration: none;
+    border-bottom: dotted 1px;
   }
 
   #text-p1 {
@@ -694,5 +826,12 @@ footer > #text > p > a {
 
   #text-p2 {
     margin-left: 10px;
+  }
+  #text-p2 > a {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #6c6c6cc8;
+    text-decoration: none;
+    border-bottom: dotted 1px;
   }
 }
