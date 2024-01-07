@@ -306,6 +306,8 @@ hr {
   letter-spacing: -1px;
 }
 
+/* for video  section */
+
 #tv2 {
   display: flex;
   justify-content: center;
@@ -351,7 +353,6 @@ hr {
   z-index: 2;
 }
 
-/* for video  */
 #tv2-b > #vt {
   position: absolute;
   top: 11%;
@@ -359,7 +360,7 @@ hr {
   width: 65%;
 }
 
-/* cartoon section  */
+/* for cartoon section  */
 #cartoon {
   /* border: 2px solid red; */
   display: flex;
@@ -403,4 +404,57 @@ hr {
   font-weight: 400;
   word-spacing: -1.5px;
   letter-spacing: -1.5px;
+}
+
+/* for que section  */
+#faq {
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+#faq > h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.faq-cont {
+  margin-top: 8px;
+}
+
+#faq > .faq-cont > .que {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  background-color: #2d2d2d;
+}
+
+#faq > .faq-cont > .que > h3 {
+  font-size: 1.3rem;
+}
+
+.ans {
+  background-color: #2d2d2d;
+  padding: 1rem 2rem 1.5rem 1rem;
+  margin-top: 2px;
+  position: relative;
+  display: none;
+}
+
+.ans > p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* 
+.faq-cont:hover .ans{
+display :block ;
+}
+
+active is just like a click event ... but the differemce is that active is not permanent. it will automatically remove after some time.
+*/
+
+.faq-cont:hover .ans {
+  display: block;
 }
