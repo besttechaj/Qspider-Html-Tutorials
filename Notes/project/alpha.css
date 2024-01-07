@@ -331,7 +331,7 @@ nav > #right > #right-cont {
 
 .common_inner_card > p {
   margin-top: 0;
-  font-size: 16px;
+  font-size: 1rem;
   color: #777;
 }
 
@@ -543,9 +543,8 @@ footer > #text > p > a {
   #icons {
     width: 100%;
     margin: 1rem 0rem 1rem 0rem;
-    border: 2px solid blue;
     border-radius: 0px;
-    padding: 3rem 1rem 3rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
   }
   #icons > #icons1 {
     /* border: 2px solid yellow; */
@@ -561,6 +560,7 @@ footer > #text > p > a {
 
   #icons > #icons1 > #icons-a {
     border-right: none;
+    padding-top: 0;
   }
 
   #icons > #icons1 > #icons-b {
@@ -576,69 +576,56 @@ footer > #text > p > a {
     border-top: 1px solid grey;
   }
 
-  /*edit from here ...............................................*/
-
   .allIcons {
     padding-top: 2rem;
   }
 
   .allIcons > h1 {
     color: #646464;
-  }
-
-  .allIcons > p {
-    color: #6c6c6c;
-    font-size: 1rem;
-    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-size: 1.5rem;
   }
 
   /* for card section  */
   #card {
-    width: 70%;
-    margin: auto;
-    margin-bottom: 6rem;
-    display: flex;
-    justify-content: space-between;
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
   }
 
+  /* common className for both cards  */
   .common_outer_card {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 48%;
-    background-color: #ffffff;
+    padding: 0rem;
+    /* border: 2px solid green; */
+    width: 100%;
   }
 
   .common_outer_card > img {
-    width: 100%;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
   }
 
   .common_outer_card > .common_inner_card > button {
-    width: 30%;
-    margin: auto;
-    height: 2rem;
-    border-radius: 5px;
-    color: #777777;
-    border: 2px solid rgb(217, 216, 216);
-    cursor: pointer;
-    background-color: #ffffff;
-    margin-bottom: 2rem;
-    font-size: 0.7rem;
+    width: 90%;
+    height: 3rem;
+    padding: 0rem 1.5rem;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
   }
 
   .common_inner_card > h1 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: ##646464;
+    margin-top: 2rem;
   }
 
   .common_inner_card > p {
-    margin-top: 0;
-    font-size: 16px;
-    color: #777;
+    margin-bottom: 1.5rem;
+    padding: 0rem 1rem;
+    text-align: center;
+    letter-spacing: -0.3px;
   }
+
+  /*edit from here ...............................................*/
 
   /* for signup section  */
   #signup {
@@ -680,106 +667,19 @@ footer > #text > p > a {
     font-size: 0.8rem;
   }
 
-  /* for card section  */
-  #card {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  #card1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  #card2 {
-    width: 100%;
-    text-align: center;
-  }
-
-  #card1 > #card1-a > h1 {
-    font-size: 22px;
-  }
-
-  #card1 > #card1-a > p {
-    font-size: 15px;
-  }
-
-  #card2 > #card2-a > h1 {
-    font-size: 22px;
-  }
-
-  #card2 > #card2-a > p {
-    font-size: 15px;
-  }
-
-  #card2 > img {
-    width: 100%;
-  }
-
-  #card1 > #card1-a > button {
-    width: 100%;
-    margin: auto;
-    padding: 0px 30px;
-    height: 3rem;
-    border-radius: 5px;
-    color: #777777;
-    border: 2px solid rgb(217, 216, 216);
-    cursor: pointer;
-    background-color: #ffffff;
-    margin-bottom: 2rem;
-    font-size: 1rem;
-  }
-
-  #card2 > #card2-a > button {
-    width: 100%;
-    margin: auto;
-    padding: 0px 30px;
-    font-size: 1rem;
-    height: 3rem;
-    border-radius: 5px;
-    border: 2px solid rgb(217, 216, 216);
-    color: #777777;
-    /* margin-right: 1rem; */
-    cursor: pointer;
-    background-color: #ffffff;
-    margin-bottom: 2rem;
-  }
-
-  #signup {
-    padding: 2rem 0rem;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #signup > h1 {
-    margin-bottom: 0.7rem;
-    font-size: 1.8rem;
-  }
-
-  #signup > p {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    font-size: 1rem;
-  }
-
-  #signup > input {
-    width: 82%;
-    margin: auto;
-    margin-bottom: 1rem;
-  }
-
-  #signup > input::placeholder {
-    color: white;
-  }
-
   #signup > button {
-    width: 90%;
-    margin: auto;
+    width: 10%;
+    border-radius: 5px;
+    text-align: center;
     padding: 0.9rem;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #e89990;
+    font-weight: 300;
+    border: none;
+    cursor: pointer;
   }
 
-  /* to be done from here.......................................................... */
   /* for footer section  */
   footer {
     width: 100%;
