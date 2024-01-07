@@ -667,56 +667,46 @@ footer > #text > p > a {
 
   /* for footer section  */
   footer {
-    width: 100%;
-    padding: 4rem 0rem;
-    color: #999999;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f0f0f0;
   }
 
   footer > #logo {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-    font-size: 1.7rem;
+    text-align: center;
+    font-size: 2rem;
   }
 
   footer > #text {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
   }
 
   footer > #text > p {
-    font-size: 1rem;
-    margin-top: 1rem;
-    color: #6c6c6c;
+    font-size: 1.3rem;
+    margin-top: 0rem;
   }
 
   footer > #text > #text-p {
-    border-left: 1px solid rgba(208, 208, 208, 0.951);
-    border-right: 1px solid rgb(208, 208, 208, 0.951);
-    padding: 0px 10px;
+    border-left: none;
+    border-right: none;
+    padding: 0;
   }
 
   footer > #text > p > a {
-    font-size: 1rem;
-    margin-top: 1rem;
-    color: #6c6c6cc8;
-    text-decoration: none;
-    border-bottom: dotted 1px;
+    font-size: 1.3rem;
+    margin-top: 0rem;
   }
 
   #text-p1 {
-    margin-right: 10px;
+    margin-right: 0px;
   }
 
   #text-p2 {
-    margin-left: 10px;
+    margin-left: 0px;
   }
   #text-p2 > a {
-    font-size: 1rem;
-    margin-top: 1rem;
-    color: #6c6c6cc8;
-    text-decoration: none;
-    border-bottom: dotted 1px;
+    font-size: 1.3rem;
+    margin-top: 0rem;
   }
 }
