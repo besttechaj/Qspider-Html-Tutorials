@@ -410,13 +410,16 @@ hr {
 #faq {
   width: 80%;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  color: #ffffff;
 }
 
 #faq > h2 {
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: bolder;
 }
 
 .faq-cont {
