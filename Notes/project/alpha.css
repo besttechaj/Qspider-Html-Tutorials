@@ -131,6 +131,7 @@ nav > #right > #right-cont {
   text-align: center;
   color: white;
   margin-top: 7rem;
+  /* border: 2px solid red; */
 }
 
 #alpha > h1 {
@@ -168,6 +169,9 @@ nav > #right > #right-cont {
   margin-top: 9rem;
   border-radius: 5px;
   padding-top: 2rem;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
 }
 
 #intro > h2 {
@@ -189,29 +193,30 @@ nav > #right > #right-cont {
   width: 100%;
   margin-top: 2rem;
   border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 #icons {
   display: flex;
   flex-direction: column;
-  /* border:2px solid red;  */
+  border: 2px solid blue;
   color: grey;
   width: 70%;
   margin: auto;
   border-radius: 10px;
   background-color: #fff;
-  padding: 1rem;
 }
 
 #icons > #icons1 {
   /* border: 2px solid red; */
   display: flex;
+  padding: 1rem 1rem 0rem 1rem;
 }
 
 .allIcons {
+  width: 100%;
   text-align: center;
   padding: 10px;
-  /* letter-spacing: -1px; */
 }
 
 /* FOR NORMAL FONTAWESOME ICON (ie not the pro version) PROVIDING CUSTOM PROPERTY TO EACH ICON  */
@@ -251,12 +256,18 @@ nav > #right > #right-cont {
 .allIcons > h1 {
   color: #646464;
 }
+
 .allIcons > p {
-  color: #777777;
+  color: #6c6c6c;
+  font-size: 1rem;
+  letter-spacing: -0.5px;
 }
 
 #icons > #icons2 {
   display: flex;
+  /* border: 2px solid red; */
+  display: flex;
+  padding: 0rem 1rem 1rem 1rem;
 }
 
 #icons > #icons1 > #icons-a {
@@ -275,7 +286,7 @@ nav > #right > #right-cont {
 }
 
 #card {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   width: 70%;
   margin: auto;
   display: flex;
@@ -287,59 +298,61 @@ nav > #right > #right-cont {
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   width: 48%;
 }
 
 #card1 > img {
   width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 #card1 > #card1-a {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   padding: 10px;
   background-color: #fff;
 }
 
 #card1 > #card1-a > button {
   width: 30%;
-  height: 3rem;
+  margin: auto;
+  height: 2rem;
   border-radius: 5px;
   color: #777777;
   border: 2px solid rgb(217, 216, 216);
-  margin-right: 1rem;
   cursor: pointer;
   background-color: #ffffff;
   margin-bottom: 2rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 #card2 > #card2-a > button {
   width: 30%;
-  height: 3rem;
+  margin: auto;
+  height: 2rem;
   border-radius: 5px;
-  border: 2px solid rgb(217, 216, 216);
   color: #777777;
-  margin-right: 1rem;
+  border: 2px solid rgb(217, 216, 216);
   cursor: pointer;
   background-color: #ffffff;
   margin-bottom: 2rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 #card1-a > h1 {
-  font-size: 2rem;
-  color: #646464;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: ##646464;
 }
 
 #card2-a > h1 {
-  font-size: 2rem;
-  color: #646464;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: ##646464;
 }
 #card1-a > p {
   font-size: 16px;
@@ -353,6 +366,8 @@ nav > #right > #right-cont {
 
 #card2 > img {
   width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 #card2 > #card2-a {
