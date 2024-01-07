@@ -286,38 +286,26 @@ nav > #right > #right-cont {
 }
 
 #card {
-  border: 2px solid green;
   width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
-#card1,
-#card2 {
-  /* border: 2px solid red; */
+.common_outer_card {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 48%;
 }
 
-#card1 > img {
+.common_outer_card > img {
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
 
-#card1 > #card1-a {
-  border: 2px solid red;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 10px;
-  background-color: #fff;
-}
-
-#card1 > #card1-a > button {
+.common_outer_card > .common_inner_card > button {
   width: 30%;
   margin: auto;
   height: 2rem;
@@ -330,53 +318,16 @@ nav > #right > #right-cont {
   font-size: 0.7rem;
 }
 
-#card2 > #card2-a > button {
-  width: 30%;
-  margin: auto;
-  height: 2rem;
-  border-radius: 5px;
-  color: #777777;
-  border: 2px solid rgb(217, 216, 216);
-  cursor: pointer;
-  background-color: #ffffff;
-  margin-bottom: 2rem;
-  font-size: 0.7rem;
-}
-
-#card1-a > h1 {
+.common_inner_card > h1 {
   font-size: 1.5rem;
   font-weight: 300;
   color: ##646464;
 }
 
-#card2-a > h1 {
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: ##646464;
-}
-#card1-a > p {
+.common_inner_card > p {
+  margin-top: 0;
   font-size: 16px;
   color: #777;
-}
-
-#card2-a > p {
-  font-size: 16px;
-  color: #777;
-}
-
-#card2 > img {
-  width: 100%;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-}
-
-#card2 > #card2-a {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background-color: #fff;
 }
 
 #signup {
