@@ -363,6 +363,8 @@ nav > #right > #right-cont {
 
 #signup > input::placeholder {
   color: white;
+  font-weight: 100;
+  font-size: 0.8rem;
 }
 
 #signup > button {
