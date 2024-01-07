@@ -131,7 +131,7 @@ nav > #right > #right-cont {
   text-align: center;
   color: white;
   margin-top: 5rem;
-  /* border: 2px solid red; */
+  /* border: 1px solid red; */
 }
 
 #alpha > h1 {
@@ -161,6 +161,7 @@ nav > #right > #right-cont {
 }
 
 #intro {
+  /* border: 2px solid red; */
   background-color: white;
   text-align: center;
   /* for block level ......  change the width to any width and to align content to centre use margin auto ... automatically gives margin to all the sides */
@@ -175,7 +176,8 @@ nav > #right > #right-cont {
 
 #intro > h2 {
   font-size: 2rem;
-  color: grey;
+  color: #777;
+  font-weight: 500;
 }
 
 #intro > p {
