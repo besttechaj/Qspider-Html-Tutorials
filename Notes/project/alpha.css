@@ -442,7 +442,7 @@ footer > #text > p > a {
 @media (max-width: 600px) {
   body {
     /* to increase background image size */
-    background-size: 160%;
+    background-size: 170%;
     /*  for horizontally centre */
     background-position-x: center;
     background-color: red;
@@ -463,22 +463,35 @@ footer > #text > p > a {
   }
 
   #alpha {
+    /* border: 2px solid blue; */
     width: 80%;
     margin: auto;
-    margin-top: 0rem;
+    /* margin-top: 1rem; */
+    display: flex;
+    flex-direction: column;
   }
 
   #alpha > h1 {
+    margin-top: 1.5rem;
     font-size: 2rem;
   }
 
   #alpha > p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    word-spacing: -0.5px;
+    letter-spacing: -0.5px;
   }
 
   #alpha > button {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-right: 0%;
+    margin-bottom: 0.7rem;
+    padding: 0rem 1.5rem;
+  }
+
+  #alpha > #learn {
+    margin-bottom: 3.5rem;
   }
 
   /* for intro section */
