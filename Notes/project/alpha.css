@@ -285,6 +285,7 @@ nav > #right > #right-cont {
 #card {
   width: 70%;
   margin: auto;
+  margin-bottom: 6rem;
   display: flex;
   justify-content: space-between;
 }
@@ -343,11 +344,11 @@ nav > #right > #right-cont {
 }
 
 #signup > p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: #f9e6df;
-  letter-spacing: -0.2px;
+  word-spacing: 1px;
 }
 
 #signup > input {
@@ -362,7 +363,7 @@ nav > #right > #right-cont {
 }
 
 #signup > input::placeholder {
-  color: white;
+  color: #fff;
   font-weight: 100;
   font-size: 0.8rem;
 }
@@ -373,9 +374,9 @@ nav > #right > #right-cont {
   text-align: center;
   padding: 0.9rem;
   font-size: 1rem;
-  background-color: #fffff;
+  background-color: #ffffff;
   color: #e89990;
-  font-weight: 400;
+  font-weight: 300;
   border: none;
   cursor: pointer;
 }
@@ -391,7 +392,7 @@ footer > #logo {
   justify-content: center;
   gap: 1.5rem;
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 footer > #text {
@@ -400,14 +401,23 @@ footer > #text {
 }
 
 footer > #text > p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-top: 1rem;
+  color: #6c6c6c;
 }
 
 footer > #text > #text-p {
-  border-left: 1px solid #d7d5d5;
-  border-right: 1px solid #d7d5d5;
+  border-left: 1px solid rgba(208, 208, 208, 0.951);
+  border-right: 1px solid rgb(208, 208, 208, 0.951);
   padding: 0px 10px;
+}
+
+footer > #text > p > a {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #6c6c6cc8;
+  text-decoration: none;
+  border-bottom: dotted 1px;
 }
 
 #text-p1 {
@@ -416,6 +426,13 @@ footer > #text > #text-p {
 
 #text-p2 {
   margin-left: 10px;
+}
+#text-p2 > a {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #6c6c6cc8;
+  text-decoration: none;
+  border-bottom: dotted 1px;
 }
 
 /* for mobile */
