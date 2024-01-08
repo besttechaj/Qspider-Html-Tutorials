@@ -461,3 +461,469 @@ active is just like a click event ... but the differemce is that active is not p
 .faq-cont:hover .ans {
   display: block;
 }
+
+@media (max-width: 600px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(./images/netflixBackgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    background-color: black;
+  }
+
+  nav {
+    padding: 8px 150px;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+  }
+
+  nav > #left > img {
+    width: 30%;
+    background-color: transparent;
+  }
+
+  #right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  #right > button {
+    padding: 7px;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    width: 25%;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+  }
+
+  #right > button:hover {
+    background-color: #c11119;
+  }
+
+  #select_div > select {
+    width: 120px;
+    padding: 10px 10px;
+    padding-left: 20px;
+    text-align: centre;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #select_div > select > option {
+    background-color: blue;
+    color: white;
+  }
+
+  #select_div {
+    position: relative;
+  }
+
+  .fa-globe {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+  }
+
+  #intro {
+    /* background-color: orange; */
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 8rem 0rem 12rem 0rem;
+  }
+
+  #intro > h1 {
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: -3.5px;
+  }
+
+  #intro > p {
+    font-size: 400;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    letter-spacing: -2px;
+    margin-bottom: 0;
+  }
+
+  #intro > h3 {
+    /* background-color: green; */
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    letter-spacing: -1px;
+    margin-top: 1rem;
+  }
+
+  #intro > #inner1 {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #intro > #inner1 > input::placeholder {
+    color: white;
+    font-weight: 500;
+  }
+
+  #intro > #inner1 > input {
+    /* padding: 1.5rem 1rem 0.5rem; */
+    padding: 1rem;
+    width: 30%;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #000000;
+    opacity: 40%;
+    color: white;
+    /* filter: opacity(0%); */
+    margin-right: 8px;
+    border: 2px solid grey;
+  }
+
+  #intro > #inner1 > button {
+    width: 20%;
+    border-radius: 5px;
+    /* padding: 1.5rem 1rem 0.5rem; */
+    text-align: center;
+    padding: 0.9rem;
+    font-size: 1.5rem;
+    background-color: #e50914;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+
+  #intro > #inner1 > button:hover {
+    background-color: #c11119;
+  }
+
+  #tv_div {
+    background-color: black;
+  }
+
+  #tv {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0rem;
+  }
+
+  #enjoy {
+    width: 48%;
+    color: white;
+  }
+
+  #enjoy > h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: -2px;
+  }
+
+  #enjoy > p {
+    font-size: 1.6rem;
+    letter-spacing: -2px;
+  }
+
+  #tv-video {
+    width: 48%;
+    position: relative;
+  }
+
+  #tv-video > img {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+  }
+
+  #tv-video > video {
+    position: absolute;
+    height: 330px;
+    width: 400px;
+    top: 3%;
+    left: 12%;
+    z-index: 1;
+  }
+
+  hr {
+    height: 10px;
+    background-color: #232323;
+    border: none;
+    margin-top: 4rem;
+    margin-bottom: 0%;
+  }
+
+  #mob_inner {
+    /* border: 3px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+  }
+
+  #left_div {
+    /* border: 3px solid yellow; */
+    position: relative;
+    width: 50%;
+  }
+
+  #left_div > #left_inner1 > img {
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+
+  /* absolute div for overlapping */
+  #left_div > #left_inner2 {
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 15px;
+    background-color: black;
+    width: 16.5rem;
+    height: 4rem;
+    position: absolute;
+    z-index: 2;
+    bottom: 8%;
+    left: 21%;
+    padding: 10px;
+  }
+
+  #left_div > #left_inner2 > #pic > img {
+    /* border: 2px solid red; */
+    width: 3rem;
+    height: 4rem;
+    margin-right: 5px;
+  }
+
+  #left_div > #left_inner2 > #strange {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  #left_div > #left_inner2 > #strange > h5 {
+    margin-bottom: 0%;
+    font-size: 14px;
+    padding-right: 2rem;
+    color: white;
+    margin-top: 0%;
+    width: 8rem;
+  }
+
+  #left_div > #left_inner2 > #strange > p {
+    font-size: 14px;
+    margin-top: 0%;
+    color: #0071eb;
+    margin-bottom: 0%;
+  }
+
+  #left_div > #left_inner2 > #gif > img {
+    width: 3.5rem;
+    height: 4rem;
+  }
+
+  #right_div {
+    width: 50%;
+    color: white;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    padding-right: 3rem;
+  }
+
+  #right_div > h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    margin: 0%;
+  }
+
+  #right_div > p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0%;
+    letter-spacing: -1px;
+  }
+
+  /* for video  section */
+
+  #tv2 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 50px 0px;
+    margin: auto;
+    /* margin-top: 6rem; */
+  }
+
+  #tv2-a {
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+
+  #tv2-a > h1 {
+    font-size: 2.8rem;
+    margin: 0%;
+    font-weight: bold;
+    letter-spacing: -1px;
+  }
+
+  #tv2-a > p {
+    font-size: 1.3rem;
+    margin-bottom: 0%;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+  }
+
+  #tv2-b {
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #tv2-b > img {
+    width: 100%;
+    z-index: 2;
+  }
+
+  #tv2-b > #vt {
+    position: absolute;
+    top: 11%;
+    left: 17%;
+    width: 65%;
+  }
+
+  /* for cartoon section  */
+  #cartoon {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 4rem 0rem;
+  }
+
+  #cartoon-a {
+    /* border: 2px solid yellow; */
+    width: 40%;
+  }
+
+  #cartoon-a > img {
+    width: 100%;
+    height: 53vh;
+  }
+
+  #cartoon-b {
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 40%;
+    color: white;
+  }
+
+  #cartoon-b > h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0%;
+    word-spacing: -1.2px;
+    letter-spacing: -1px;
+  }
+
+  #cartoon-b > p {
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+    margin-top: 1rem;
+    font-weight: 400;
+    word-spacing: -1.5px;
+    letter-spacing: -1.5px;
+  }
+
+  /* for que section  */
+  #faq {
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    color: #ffffff;
+  }
+
+  #faq > h2 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  .faq-cont {
+    margin-top: 8px;
+  }
+
+  #faq > .faq-cont > .que {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    background-color: #2d2d2d;
+  }
+
+  #faq > .faq-cont > .que > h3 {
+    font-size: 1.3rem;
+  }
+
+  .ans {
+    background-color: #2d2d2d;
+    padding: 1rem 2rem 1.5rem 1rem;
+    margin-top: 2px;
+    position: relative;
+    display: none;
+  }
+
+  .ans > p {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  /* 
+  .faq-cont:hover .ans{
+  display :block ;
+  }
+  
+  active is just like a click event ... but the differemce is that active is not permanent. it will automatically remove after some time.
+  */
+
+  .faq-cont:hover .ans {
+    display: block;
+  }
+}
