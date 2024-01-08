@@ -522,10 +522,10 @@ footer > #text > p > a {
 
   #intro > p {
     /* covers the 60% of the parent width from the left side  */
-    width: 100%;
+    width: 90%;
+    margin: auto;
     color: #777777;
-    padding: 1.8rem 0rem 0rem 0rem;
-    letter-spacing: -0.5px;
+    padding: 1.8rem 0.5rem 0rem 0.5rem;
   }
 
   #intro > img {
@@ -542,20 +542,22 @@ footer > #text > p > a {
 
   #icons {
     width: 100%;
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 0rem 0rem 1rem 0rem;
     border-radius: 0px;
-    padding: 3rem 0rem 1rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
   }
   #icons > #icons1 {
     /* border: 2px solid yellow; */
     flex-direction: column;
     align-items: center;
+    padding: 3rem 0rem 0rem 0rem;
   }
 
   #icons > #icons2 {
     /* border: 2px solid yellow; */
     flex-direction: column;
     align-items: center;
+    padding: 1rem 0rem 0rem 0rem;
   }
 
   #icons > #icons1 > #icons-a {
@@ -564,20 +566,30 @@ footer > #text > p > a {
   }
 
   #icons > #icons1 > #icons-b {
-    border-top: 1px solid grey;
+    border-top: 1px solid #e7e5e5;
   }
 
   #icons > #icons2 > #icons-c {
-    border-top: 1px solid grey;
+    border-top: 1px solid #e7e5e5;
     border-right: none;
   }
 
   #icons > #icons2 > #icons-d {
-    border-top: 1px solid grey;
+    border-top: 1px solid #e7e5e5;
   }
 
   .allIcons {
-    padding-top: 2rem;
+    padding: 0px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .allIcons > p {
+    width: 100%;
+    margin: auto;
+    /* padding-bottom: 1rem; */
   }
 
   .allIcons > h1 {
