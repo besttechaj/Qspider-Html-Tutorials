@@ -465,37 +465,39 @@ active is just like a click event ... but the differemce is that active is not p
 
 @media (max-width: 600px) {
   body {
-    background-size: 200%;
+    background-size: 210%;
     background-color: black;
   }
 
   nav {
-    width: 90%;
+    width: 95%;
     margin: auto;
     padding: 1rem 0rem 1rem 0rem;
     justify-content: space-between;
     align-items: center;
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 
   nav > #left {
+    /* background-color: green; */
     width: 50%;
   }
 
   nav > #left > img {
-    border: 2px solid red;
-    width: 40%;
+    /* border: 2px solid red; */
+    width: 50%;
   }
 
   #right {
-    background-color: #0071eb;
-    justify-content: center;
+    /* background-color: yellow; */
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 0rem;
     width: 50%;
   }
 
   #right > button {
+    height: 2rem;
     padding: 4px;
     font-size: 1rem;
     background-color: #e50914;
@@ -541,7 +543,7 @@ active is just like a click event ... but the differemce is that active is not p
     text-align: center;
     color: white;
     width: 100%;
-    margin: 8rem 0rem 12rem 0rem;
+    margin: 3rem 0rem 2rem 0rem;
   }
 
   #intro > h1 {
@@ -564,12 +566,13 @@ active is just like a click event ... but the differemce is that active is not p
 
   #intro > h3 {
     /* background-color: green; */
-    font-size: 1rem;
+    width: 90%;
+    margin: auto;
+    font-size: 1.1rem;
     font-weight: 300;
     line-height: 1;
     text-align: center;
-    margin: 0;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     margin-top: 1rem;
   }
 
@@ -580,7 +583,7 @@ active is just like a click event ... but the differemce is that active is not p
     /* text-align: center; */
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 
   #intro > #inner1 > input::placeholder {
@@ -588,9 +591,9 @@ active is just like a click event ... but the differemce is that active is not p
   }
 
   #intro > #inner1 > input {
-    padding: 1rem;
-    width: 80%;
-    margin: auto;
+    padding: 1rem 0rem 1rem 1rem;
+    width: 86%;
+    margin: 1rem 0rem 1rem 0rem;
     font-size: 1rem;
     border-radius: 5px;
     background-color: #000000;
@@ -600,11 +603,11 @@ active is just like a click event ... but the differemce is that active is not p
   }
 
   #intro > #inner1 > button {
-    width: 80%;
+    width: 50%;
     margin: auto;
     border-radius: 5px;
     text-align: center;
-    padding: 0.9rem;
+    padding: 1rem;
     font-size: 1rem;
     font-weight: 400;
   }
@@ -613,13 +616,22 @@ active is just like a click event ... but the differemce is that active is not p
     background-color: #c11119;
   }
 
+  hr {
+    margin-top: 0rem;
+    height: 8px;
+    background-color: #232323;
+    border: none;
+    /* margin-top: 4rem; */
+    margin-bottom: 0%;
+  }
+
   #tv_div {
     background-color: black;
   }
 
   #tv {
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -634,13 +646,17 @@ active is just like a click event ... but the differemce is that active is not p
 
   #enjoy > h2 {
     font-size: 2rem;
-    font-weight: bolder;
+    font-weight: 700;
     letter-spacing: 0px;
+    word-spacing: -9px;
   }
 
   #enjoy > p {
-    font-size: 1rem;
-    letter-spacing: 0px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+    margin-bottom: 0rem;
   }
 
   #tv-video {
@@ -652,14 +668,6 @@ active is just like a click event ... but the differemce is that active is not p
     position: relative;
     width: 100%;
     z-index: 2;
-  }
-
-  hr {
-    height: 10px;
-    background-color: #232323;
-    border: none;
-    margin-top: 4rem;
-    margin-bottom: 0%;
   }
 
   #mob_inner {
@@ -813,46 +821,46 @@ active is just like a click event ... but the differemce is that active is not p
 
   /* for cartoon section  */
   #cartoon {
-    /* border: 2px solid red; */
-    display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    padding: 4rem 0rem;
+    padding: 2rem 0rem;
   }
 
   #cartoon-a {
     /* border: 2px solid yellow; */
-    width: 40%;
+    width: 100%;
   }
 
   #cartoon-a > img {
     width: 100%;
-    height: 53vh;
+    height: 43vh;
   }
 
   #cartoon-b {
     /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: left;
-    width: 40%;
+    text-align: center;
+    width: 100%;
     color: white;
   }
 
   #cartoon-b > h1 {
-    font-size: 3rem;
-    font-weight: 900;
-    margin: 0%;
-    word-spacing: -1.2px;
-    letter-spacing: -1px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    word-spacing: 0px;
+    letter-spacing: 0px;
   }
 
   #cartoon-b > p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 0%;
     margin-top: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     word-spacing: -1.5px;
     letter-spacing: -1.5px;
   }
