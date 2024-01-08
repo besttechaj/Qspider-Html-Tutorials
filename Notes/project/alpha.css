@@ -517,14 +517,14 @@ footer > #text > p > a {
     width: 100%;
     font-size: 1.5rem;
     color: #646464;
-    padding: 0rem 0.5rem;
+    padding: 0rem 0rem;
   }
 
   #intro > p {
     /* covers the 60% of the parent width from the left side  */
     width: 100%;
     color: #777777;
-    padding: 1.8rem 1rem 0rem 1rem;
+    padding: 1.8rem 0rem 0rem 0rem;
     letter-spacing: -0.5px;
   }
 
@@ -544,7 +544,7 @@ footer > #text > p > a {
     width: 100%;
     margin: 1rem 0rem 1rem 0rem;
     border-radius: 0px;
-    padding: 3rem 1rem 1rem 1rem;
+    padding: 3rem 0rem 1rem 0rem;
   }
   #icons > #icons1 {
     /* border: 2px solid yellow; */
@@ -629,7 +629,7 @@ footer > #text > p > a {
   #signup {
     display: flex;
     flex-direction: column;
-    padding: 2rem 1rem 3rem 1rem;
+    padding: 2rem 0rem 3rem 0rem;
   }
 
   #signup > h1 {

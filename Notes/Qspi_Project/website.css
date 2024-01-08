@@ -195,11 +195,12 @@ nav > #left > img {
 }
 
 #tv-video > video {
+  border: 2px solid red;
   position: absolute;
-  height: 330px;
-  width: 400px;
-  top: 3%;
-  left: 12%;
+  /* height: 330px; */
+  width: 73%;
+  top: 20%;
+  left: 13%;
   z-index: 1;
 }
 
@@ -657,15 +658,6 @@ active is just like a click event ... but the differemce is that active is not p
     position: relative;
     width: 100%;
     z-index: 2;
-  }
-
-  #tv-video > video {
-    position: absolute;
-    height: 330px;
-    width: 400px;
-    top: 3%;
-    left: 12%;
-    z-index: 1;
   }
 
   hr {
