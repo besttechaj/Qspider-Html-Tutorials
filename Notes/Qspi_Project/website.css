@@ -468,6 +468,11 @@ active is just like a click event ... but the differemce is that active is not p
     background-size: 210%;
     background-color: black;
   }
+  /* 
+always remove the <br> in mobile media queries else it will create problem..... <br> tag is useful for desktop version */
+  br {
+    display: none;
+  }
 
   nav {
     width: 95%;
@@ -749,16 +754,18 @@ active is just like a click event ... but the differemce is that active is not p
     display: flex;
     flex-direction: column;
     text-align: center;
+    text-align: center;
     padding: 0%;
     padding-right: 0rem;
   }
 
   #right_div > h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 100%;
-    font-weight: bolder;
+    font-weight: 900;
     letter-spacing: 0px;
     margin: 0%;
+    word-spacing: 0px;
   }
 
   #right_div > p {
