@@ -681,14 +681,15 @@ always remove the <br> in mobile media queries else it will create problem..... 
     /* border: 3px solid red; */
     width: 100%;
     margin: 0;
-    padding-top: 2rem;
+    padding: 2rem 0rem 2rem 0rem;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
 
   #left_div {
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
+    margin-top: 1rem;
     position: relative;
     width: 100%;
   }
@@ -750,7 +751,7 @@ always remove the <br> in mobile media queries else it will create problem..... 
 
   #right_div {
     width: 100%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -760,18 +761,21 @@ always remove the <br> in mobile media queries else it will create problem..... 
   }
 
   #right_div > h2 {
-    font-size: 1.5rem;
-    width: 100%;
+    font-size: 1.9rem;
+    width: 93%;
+    margin: auto;
     font-weight: 900;
     letter-spacing: 0px;
-    margin: 0%;
-    word-spacing: 0px;
+    word-spacing: -1px;
+    word-spacing: -1px;
   }
 
   #right_div > p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
-    margin: 0;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
     padding: 0%;
     letter-spacing: -1px;
   }
@@ -779,43 +783,50 @@ always remove the <br> in mobile media queries else it will create problem..... 
   /* for video  section */
 
   #tv2 {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 90%;
-    padding: 50px 0px;
-    margin: auto;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0rem 2rem 0rem;
+    margin: 0;
     /* margin-top: 6rem; */
   }
 
   #tv2-a {
-    width: 40%;
+    width: 100%;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
+    text-align: center;
   }
 
   #tv2-a > h1 {
-    font-size: 2.8rem;
-    margin: 0%;
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
     font-weight: bold;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
+    word-spacing: -5px;
   }
 
   #tv2-a > p {
-    font-size: 1.3rem;
-    margin-bottom: 0%;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: -0.8px;
   }
 
   #tv2-b {
-    width: 40%;
+    width: 90%;
+    margin: auto;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
   }
 
   #tv2-b > img {
@@ -836,17 +847,18 @@ always remove the <br> in mobile media queries else it will create problem..... 
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 2rem 0rem;
+    padding: 3rem 0rem;
   }
 
   #cartoon-a {
     /* border: 2px solid yellow; */
     width: 100%;
+    margin-top: 1rem;
   }
 
   #cartoon-a > img {
     width: 100%;
-    height: 43vh;
+    height: 35vh;
   }
 
   #cartoon-b {
@@ -858,37 +870,36 @@ always remove the <br> in mobile media queries else it will create problem..... 
   }
 
   #cartoon-b > h1 {
-    width: 90%;
+    width: 95%;
     margin: auto;
-    text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: bolder;
-    word-spacing: 0px;
+    word-spacing: -1px;
+    word-spacing: -5px;
     letter-spacing: 0px;
   }
 
   #cartoon-b > p {
+    width: 95%;
+    margin: auto;
     font-size: 1.2rem;
     margin-bottom: 0%;
     margin-top: 1rem;
     font-weight: 300;
-    word-spacing: -1.5px;
+    word-spacing: -5px;
     letter-spacing: -1.5px;
   }
 
   /* for que section  */
   #faq {
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 4rem;
     margin-bottom: 8rem;
-    color: #ffffff;
   }
 
   #faq > h2 {
-    color: white;
-    text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bolder;
   }
 
@@ -904,7 +915,7 @@ always remove the <br> in mobile media queries else it will create problem..... 
   }
 
   #faq > .faq-cont > .que > h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .ans {
@@ -918,6 +929,7 @@ always remove the <br> in mobile media queries else it will create problem..... 
   .ans > p {
     margin: 0;
     font-size: 1rem;
+    margin-bottom: 1rem;
   }
 
   /* 
